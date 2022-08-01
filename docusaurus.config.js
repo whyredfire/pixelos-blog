@@ -6,18 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'PixelOS',
+  tagline: 'Wiki',
+  url: 'https://wiki.pixelos.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon-32x32.png',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,17 +29,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,22 +44,39 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'PixelOS Wiki',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'PixelOS Logo',
+          src: 'img/favicon-32x32.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'JoinTheTeam',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Join The Team',
+          },
+          {
+            type: 'doc',
+            docId: 'faq',
+            position: 'left',
+            label: 'Support',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'screenshots/index',
+            position: 'left',
+            label: 'SS',
+          },
+          {
+            href: 'https://github.com/PixelOS-Pixelish/',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://t.me/PixelOSOfficial',
+            label: 'Telegram',
             position: 'right',
           },
         ],
@@ -84,25 +88,25 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Join The Team',
+                to: '/docs/JoinTheTeam',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Community and Updates',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Telegram Group Chat',
+                href: 'https://t.me/pixeloschat',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Telegram Channel',
+                href: 'https://t.me/PixelOSOfficial',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'CI',
+                href: 'https://t.me/pixelosci',
               },
             ],
           },
@@ -115,12 +119,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/PixelOS-Pixelish/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PixelOS Project. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

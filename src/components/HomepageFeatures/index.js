@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Bhaiest security',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      ROM is always up to date with AOSP by including the latest security patches the moment they come out.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'OTA fr',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      We have our OTA updater app inside the ROM, so you wont ever miss an update when it comes out.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Community',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      We have a community group you can always contact us for any questions.
       </>
     ),
   },

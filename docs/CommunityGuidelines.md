@@ -1,0 +1,30 @@
+---
+sidebar_position: 4
+---
+
+# Community Guidelines
+## Applicable to PixelOS and its affiliated Telegram Communities
+
+### 1. English only
+Use a translator if you need to.
+### 2. No ETA
+Do not ask developers for ETAs or when the next update will be. It's ready when it's ready.
+### 3. Be polite
+Respect others in the group and remain civil, be it developers or other group members. Hostility isn't tolerable and will result in warnings/bans.
+### 4. No NSFW 
+Stricly no nsfw/pornography is allowed in the group. 
+### 5. Off-Topic
+Some off-topic is allowed, excessive amounts will result in being asked to move the conversation to the dedicated off-topic group
+### 6. No Piracy Policy 
+No piracy or even encouraging it, you will be banned without warning. This is a zero tolerance rule.
+### 7. Inappropriate Profile Pictures
+Users with disrespectful/nsfw/distasteful profile/display pictures or names will be asked to change them. Refusing to do so will result in being removed from the group.
+### 8. Spam Messages 
+No promotion, spamming or similar allowed. Use the @admins or reply to the message you wish to report with /report to alert us 
+### 9. Don't misuse the report function, it will result in a warning. 
+### 10. Do not PM without permission 
+No unsolicited private messages to admins or other users. It will result in warnings/bans.
+
+:::tip
+Read the XDA thread for your device before flashing. It has instructions and will be updated should requirements change.
+:::
