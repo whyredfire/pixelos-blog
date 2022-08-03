@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PixelOS',
-  tagline: 'Wiki',
+  title: 'PixelOS Wiki',
   url: 'https://wiki.pixelos.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
