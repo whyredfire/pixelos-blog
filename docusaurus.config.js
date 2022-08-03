@@ -62,12 +62,11 @@ const config = {
             position: 'left',
             label: 'Support',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'screenshots/index',
             position: 'left',
-            label: 'SS',
+            label: 'Screenshots',
           },
           {
             href: 'https://github.com/PixelOS-Pixelish/',
