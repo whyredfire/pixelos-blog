@@ -28,6 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: {
           showReadingTime: true,
@@ -51,21 +52,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'JoinTheTeam',
-            position: 'left',
-            label: 'Join The Team',
-          },
-          {
-            type: 'doc',
             docId: 'faq',
             position: 'left',
             label: 'Support',
           },
           {
             type: 'doc',
-            docId: 'screenshots/index',
+            docId: 'JoinTheTeam',
             position: 'left',
-            label: 'Screenshots',
+            label: 'Join The Team',
           },
           {
             href: 'https://github.com/PixelOS-Pixelish/',

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # Frequently Asked Questions
@@ -25,7 +26,7 @@ PixelOS is free to use and open-source. None of the maintainers are obligated to
 
 :::danger Asking for ETAs
 
-Repeatedly asking for updates ("ETAs") through the use of euphemisms in the [community](community.md), such as "Is there an update coming soon?" will not be tolerated.
+Repeatedly asking for updates ("ETAs") through the use of euphemisms in the community, such as "Is there an update coming soon?" will not be tolerated.
 
 :::
 
@@ -51,13 +52,5 @@ Because they are cute and adorable.
 ## Is PixelOS for gaming?
 No, we aim for a great every day experience with no real focus on gaming..
 
-## Lags in gaming?
-As mentioned above, gaming isn't a primary focus (or any focus at all really) of the PixelOS project. Occasionally improvements to UI and other areas can negatively impact gaming performance.
-
 ## Will we add x feature?
 We don't accept feature requests.
-
-## Is PixelOS stable for my semi-dead device?
-The only way to find out is to try it.
-
-
