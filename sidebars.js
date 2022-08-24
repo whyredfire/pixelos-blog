@@ -28,10 +28,20 @@ const sidebars = {
 
   SupportSideBar: [
     {
-      type: 'category',
-      label: 'Support ',
-      items: ["faq" , 'CommunityGuidelines', "BugReport", "HowToLog"],
+      type: 'doc',
+      label: 'Frequently Asked Questions',
+      id: 'faq',
     },
+    {
+      type: 'doc',
+      label: 'Community Guidelines',
+      id: 'CommunityGuidelines',
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: ["BugReport", "HowToLog"],
+    }
   ],
 
 };
