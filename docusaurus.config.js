@@ -54,7 +54,7 @@ const config = {
             type: 'doc',
             docId: 'faq',
             position: 'left',
-            label: 'Support',
+            label: 'For Users',
           },
           {
             type: 'doc',
