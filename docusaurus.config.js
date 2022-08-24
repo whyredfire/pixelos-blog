@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'Join The Team',
-                to: '/docs/JoinTheTeam',
+                to: '/JoinTheTeam',
               },
             ],
           },

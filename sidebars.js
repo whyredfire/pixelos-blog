@@ -30,7 +30,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Support ',
-      items: ["faq" , 'CommunityGuidelines',],
+      items: ["faq" , 'CommunityGuidelines', "BugReport", "HowToLog"],
     },
   ],
 

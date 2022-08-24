@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /docs/JoinTheTeam
+slug: /JoinTheTeam
 ---
 
 # Becoming an Official Maintainer
