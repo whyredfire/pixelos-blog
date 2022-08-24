@@ -45,6 +45,7 @@ const config = {
     ({
       navbar: {
         title: 'PixelOS Wiki',
+        hideOnScroll: true,
         logo: {
           alt: 'PixelOS Logo',
           src: 'img/favicon-32x32.png',
@@ -58,7 +59,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'JoinTheTeam',
+            docId: 'JoinUs/index',
             position: 'left',
             label: 'Join The Team',
           },
@@ -82,7 +83,7 @@ const config = {
             items: [
               {
                 label: 'Join The Team',
-                to: '/JoinTheTeam',
+                to: '/JoinUs/index',
               },
             ],
           },
