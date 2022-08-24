@@ -1,9 +1,20 @@
+---
+title: Taking Logs
+---
+
 # Guide to taking logs
 
-Many times when using a custom ROM or kernel, you may experience an issue. The developer may want something called a logcat or dmesg to look into this but you may not know how to do that. There are a couple of ways to do so and that is what I am going to explain now. This is valid for themers, ROM developers, and kernel developers.
+Occasionally when using a custom ROM or kernel, you may experience an issue. The developer may want something called a logcat or dmesg to look into this but you may not know how to do that. This is valid for themers, ROM developers, and kernel developers.
 
 A logcat is useful for debugging crashes or other weird behaviors with apps or themes. A radio logcat details what's going on in the phone's actual phone functionality. It tells you any errors that occured while trying to call. A dmesg is a kernel log, detailing what each subsystem is doing. A ramoops is the previous dmesg, which will detail why a phone force restarted. A ramoops is also known as last-kmsg or pstore, and can be retrieved from a custom recovery as well as from a booted device.
 
+:::caution Asking for bug fixes
+
+Reporting bugs should not morph into harrasing or pressuring the maintainers or developers to fix your issue.
+
+Any instances of bullying maintainers will not be tolerated and action will be taken
+
+:::
 
 ## 1. Using an app
 
@@ -68,7 +79,7 @@ A logcat is useful for debugging crashes or other weird behaviors with apps or t
 2.  Write in clear, concise manner what the issue is with steps to reproduce
     :::tip Explaining your issue
     Bad: My phone is broken, help!
-    
+
     Good: Whenever I open YouTube after a clean flash, it force closes.
     :::
 
