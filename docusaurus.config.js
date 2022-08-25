@@ -45,6 +45,7 @@ const config = {
     ({
       navbar: {
         title: 'PixelOS Wiki',
+        hideOnScroll: true,
         logo: {
           alt: 'PixelOS Logo',
           src: 'img/favicon-32x32.png',
@@ -60,7 +61,13 @@ const config = {
             type: 'doc',
             docId: 'JoinTheTeam',
             position: 'left',
-            label: 'Join The Team',
+            label: 'For Maintainers',
+          },
+          {
+            type: 'doc',
+            docId: 'resources/resources',
+            position: 'left',
+            label: 'Resources',
           },
           {
             href: 'https://github.com/PixelOS-Pixelish/',

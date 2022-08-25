@@ -18,11 +18,12 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  JoinUsSidebar: [
+  MaintainersSidebar: [
     {
       type: 'category',
-      label: 'Join us',
-      items: [ "JoinTheTeam", "MaintainersRequirements", 'DeviceRequirements', "Guidelines"],
+      label: 'Join The Team',
+      link: {type: 'doc', id: 'JoinTheTeam'},
+      items: ["MaintainersRequirements", 'DeviceRequirements', "Guidelines"],
     },
   ],
 
@@ -43,6 +44,14 @@ const sidebars = {
       items: ["BugReport", "HowToLog"],
     }
   ],
+
+  ResourcesSideBar: [
+    {
+      type: 'doc',
+      label: "Important Links",
+      id: "resources/resources",
+    }
+  ]
 
 };
 
