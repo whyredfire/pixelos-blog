@@ -18,76 +18,31 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  // JoinUsSidebar: [
-  //   {
-  //     type: 'category',
-  //     label: 'Join us',
-  //     items: [ "JoinTheTeam", "MaintainersRequirements", 'DeviceRequirements', "Guidelines"],
-  //   },
-  // ],
-
-  // SupportSideBar: [
-  //   {
-  //     type: 'doc',
-  //     label: 'Frequently Asked Questions',
-  //     id: 'faq',
-  //   },
-  //   {
-  //     type: 'doc',
-  //     label: 'Community Guidelines',
-  //     id: 'CommunityGuidelines',
-  //   },
-  //   {
-  //     type: 'category',
-  //     label: 'Guides',
-  //     items: ["BugReport", "HowToLog"],
-  //   }
-  // ],
-
-  WelcomeSidebar: [
+  JoinUsSidebar: [
     {
-      type: "doc",
-      label: "Welcome",
-      id: "welcome"
+      type: 'category',
+      label: 'Join us',
+      items: [ "JoinTheTeam", "MaintainersRequirements", 'DeviceRequirements', "Guidelines"],
+    },
+  ],
+
+  SupportSideBar: [
+    {
+      type: 'doc',
+      label: 'Frequently Asked Questions',
+      id: 'faq',
     },
     {
-      type: "category",
-      label: "For Users",
-      
-      items: [
-        {
-          type: 'doc',
-          label: 'Frequently Asked Questions',
-          id: 'faq',
-        },
-        {
-          type: 'doc',
-          label: 'Community Guidelines',
-          id: 'CommunityGuidelines',
-        },
-        {
-          type: 'category',
-          label: 'Guides',
-          items: ["BugReport", "HowToLog"],
-      }
-      ]
+      type: 'doc',
+      label: 'Community Guidelines',
+      id: 'CommunityGuidelines',
     },
     {
       type: 'category',
-      label: 'For Maintainers',
-      items: [
-        {
-          type: 'category',
-          label: 'Join us',
-          link: {
-            type: 'doc',
-            id: 'JoinUs/index',
-          },
-          items: [ "JoinUs/MaintainersRequirements", 'JoinUs/DeviceRequirements', "JoinUs/Guidelines"],
-        },
-      ]
+      label: 'Guides',
+      items: ["BugReport", "HowToLog"],
     }
-  ]
+  ],
 
 };
 
