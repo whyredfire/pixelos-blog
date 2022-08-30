@@ -57,6 +57,7 @@ const config = {
             position: 'left',
             label: 'For Users',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'JoinTheTeam',
@@ -113,6 +114,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/PixelOS-Pixelish/',
