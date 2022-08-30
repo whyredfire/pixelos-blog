@@ -57,13 +57,13 @@ const config = {
             position: 'left',
             label: 'For Users',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'JoinTheTeam',
             position: 'left',
             label: 'For Maintainers',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'resources/resources',

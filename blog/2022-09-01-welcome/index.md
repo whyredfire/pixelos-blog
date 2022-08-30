@@ -1,8 +1,8 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+slug: PixelOS-13
+title: Brand new PixelOS based on Android 13
+authors: [helenius147, dsashwin , whyredfire]
+tags: [AOSP, thirteen, september]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
