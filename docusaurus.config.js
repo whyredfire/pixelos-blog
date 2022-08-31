@@ -66,7 +66,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
-            docId: 'resources/resources',
+            docId: 'resources/ImportantLinks',
             position: 'left',
             label: 'Resources',
           },

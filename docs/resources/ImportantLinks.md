@@ -1,5 +1,6 @@
 ---
 title: Important Links
+slug: /resources/ImportantLinks 
 ---
 
 # PixelOS Important Links
@@ -10,5 +11,3 @@ title: Important Links
 - [Automated Workflow Builds](https://t.me/pixelosci)
 - [Translate](https://translate.pixelos.net/)
 
-# Banner
-![PixelOS Banner](https://github.com/PixelOS-Pixelish/official_devices/raw/twelve/banners/latest.png)

@@ -49,7 +49,12 @@ const sidebars = {
     {
       type: 'doc',
       label: "Important Links",
-      id: "resources/resources",
+      id: "resources/ImportantLinks",
+    },
+    {
+      type: 'doc',
+      label: "Banner",
+      id: "resources/Banners"
     }
   ]
 
