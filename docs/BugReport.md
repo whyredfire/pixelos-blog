@@ -1,5 +1,6 @@
 ---
 title: Reporting Bugs
+slug: /guides/reportbugs
 ---
 
 # Guide to reporting bugs

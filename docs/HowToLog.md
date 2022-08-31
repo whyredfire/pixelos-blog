@@ -1,5 +1,6 @@
 ---
 title: Taking Logs
+slug: /guides/howtolog
 ---
 
 # Guide to taking logs

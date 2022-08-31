@@ -23,7 +23,7 @@ const sidebars = {
       type: 'category',
       label: 'Join The Team',
       link: {type: 'doc', id: 'JoinTheTeam'},
-      items: ["MaintainersRequirements", 'DeviceRequirements', "Guidelines"],
+      items: ["MaintainersRequirements", 'DeviceRequirements', "MaintainerGuidelines"],
     },
   ],
 

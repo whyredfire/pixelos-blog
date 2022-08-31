@@ -1,7 +1,8 @@
 ---
 sidebar_position: 4
+slug: /JoinTheTeam/MaintainerGuidelines
 ---
-# Guidelines
+# Maintainer Guidelines
 
 * Commits **MUST** have proper authorship 
 
