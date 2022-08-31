@@ -22,8 +22,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Join The Team',
-      link: {type: 'doc', id: 'JoinTheTeam'},
-      items: ["MaintainersRequirements", 'DeviceRequirements', "MaintainerGuidelines"],
+      link: {type: 'doc', id: 'JoinTheTeam/JoinTheTeam'},
+      items: ["JoinTheTeam/MaintainersRequirements", "JoinTheTeam/DeviceRequirements", "JoinTheTeam/MaintainerGuidelines"],
     },
   ],
 
@@ -31,17 +31,17 @@ const sidebars = {
     {
       type: 'doc',
       label: 'Frequently Asked Questions',
-      id: 'faq',
+      id: 'ForUsers/faq',
     },
     {
       type: 'doc',
       label: 'Community Guidelines',
-      id: 'CommunityGuidelines',
+      id: 'ForUsers/CommunityGuidelines',
     },
     {
       type: 'category',
       label: 'Guides',
-      items: ["BugReport", "HowToLog"],
+      items: ["guides/BugReport", "guides/HowToLog"],
     }
   ],
 

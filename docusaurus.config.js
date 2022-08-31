@@ -53,13 +53,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'faq',
+            docId: 'ForUsers/faq',
             position: 'left',
             label: 'For Users',
           },
           {
             type: 'doc',
-            docId: 'JoinTheTeam',
+            docId: 'JoinTheTeam/JoinTheTeam',
             position: 'left',
             label: 'For Maintainers',
           },
