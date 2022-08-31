@@ -1,11 +1,11 @@
 ---
 slug: PixelOS-13
 title: Brand new PixelOS based on Android 13
-authors: [helenius147, dsashwin , whyredfire]
-tags: [AOSP, thirteen, september]
+authors: [helenius147]
+tags: [AOSP, A13, september, announcement]
 ---
 
-![PixelOS Auguest Banner](https://github.com/PixelOS-Pixelish/official_devices/raw/twelve/banners/PixelOS-12-Aug-2022.png)
+![PixelOS Auguest Banner](./PixelOS-12-Aug-2022.png)
 
 # Looking back at our journey...
 
