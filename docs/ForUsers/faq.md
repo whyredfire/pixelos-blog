@@ -49,8 +49,5 @@ No.
 ## Why we use cat pics everywhere? [Seriously...](https://t.me/pixeloschat/134098)
 Because they are cute and adorable.
 
-## Is PixelOS for gaming?
-No, we aim for a great every day experience with no real focus on gaming..
-
 ## Will we add x feature?
 We don't accept feature requests.
