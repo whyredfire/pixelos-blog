@@ -127,6 +127,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} PixelOS Project. Built with Docusaurus.`,
       },
+      metadata: [{name: 'keywords', content: 'pixelos, Pixel OS, pos, android, Custom ROM, CustomROM, XDA'}],
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
