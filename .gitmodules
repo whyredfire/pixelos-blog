@@ -1,0 +1,4 @@
+[submodule "static/img/stuff"]
+	path = static/img/stuff
+	url = https://github.com/PixelOS-Devices/stuff
+	branch = main
