@@ -9,7 +9,7 @@ const config = {
   title: 'PixelOS Wiki',
   url: 'https://blog.pixelos.net',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
 
