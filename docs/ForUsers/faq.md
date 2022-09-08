@@ -20,8 +20,10 @@ Head over to the [download page](https://pixelos.net/download) for your device, 
 ## Can I get all features of Google Pixel devices on PixelOS?
 No, it is practically not possible. Some features need hardware support and have different other requirements.
 
-## When is the next update?
+## Why is the Quick Settings black in light mode?
+With the aim of the project being to provide a similar experience in look and feel to a Google Pixel device, the quick settings will always remain black in light and dark theme the same way it does on Pixel devices.
 
+## When is the next update?
 PixelOS is free to use and open-source. None of the maintainers are obligated to release updates whenever you want them to, and you are not entitled to them. **Be patient; updates will be released when they are ready.**
 
 :::danger Asking for ETAs
