@@ -95,15 +95,15 @@ const config = {
             items: [
               {
                 label: 'Join The Team',
-                to: '/JoinTheTeam',
+                to: '/docs/JoinTheTeam',
               },
               {
                 label: 'Community Guidelines',
-                to: '/CommunityGuidelines',
+                to: '/docs/CommunityGuidelines',
               },
               {
                 label: 'FAQ',
-                to: '/faq',
+                to: '/docs/faq',
               },
             ],
           },
@@ -133,7 +133,7 @@ const config = {
               },
               {
                 label: 'Important Links',
-                to: '/resources/ImportantLinks',
+                to: '/docs/resources/ImportantLinks',
               },
             ],
           },
