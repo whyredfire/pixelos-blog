@@ -48,7 +48,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'PixelOS Logo',
-          src: 'img/favicon-32x32.png',
+          src: 'img/favicon.png',
         },
         items: [
           {
