@@ -80,6 +80,11 @@ const config = {
             label: 'Telegram',
             position: 'right',
           },
+          {
+            href: 'https://twitter.com/PixelOSROM',
+            label: 'Twitter',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -92,21 +97,29 @@ const config = {
                 label: 'Join The Team',
                 to: '/JoinTheTeam',
               },
+              {
+                label: 'Community Guidelines',
+                to: '/CommunityGuidelines',
+              },
+              {
+                label: 'FAQ',
+                to: '/',
+              },
             ],
           },
           {
-            title: 'Community and Updates',
+            title: 'Telegram',
             items: [
               {
-                label: 'Telegram Group Chat',
+                label: 'Support',
                 href: 'https://t.me/pixeloschat',
               },
               {
-                label: 'Telegram Channel',
+                label: 'Releases',
                 href: 'https://t.me/PixelOSOfficial',
               },
               {
-                label: 'CI',
+                label: 'Automated Builds',
                 href: 'https://t.me/pixelosci',
               },
             ],
@@ -119,8 +132,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/PixelOS-Pixelish/',
+                label: 'Important Links',
+                to: '/resources/ImportantLinks',
               },
             ],
           },
