@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'PixelOS Wiki',
-  url: 'https://wiki.pixelos.net',
+  url: 'https://blog.pixelos.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,10 +28,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,13 +44,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PixelOS Wiki',
+        title: 'PixelOS Blog',
         hideOnScroll: true,
         logo: {
           alt: 'PixelOS Logo',
           src: 'img/favicon.png',
         },
         items: [
+          {to: '/', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'ForUsers/faq',
@@ -63,7 +64,6 @@ const config = {
             position: 'left',
             label: 'For Maintainers',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'resources/ImportantLinks',
@@ -103,7 +103,7 @@ const config = {
               },
               {
                 label: 'FAQ',
-                to: '/',
+                to: '/faq',
               },
             ],
           },
@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
               {
                 label: 'Important Links',
