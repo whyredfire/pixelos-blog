@@ -53,7 +53,7 @@ const sidebars = {
     },
     {
       type: 'doc',
-      label: "Banner",
+      label: "Banners Archive",
       id: "resources/Banners"
     }
   ]
