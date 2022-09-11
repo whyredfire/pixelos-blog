@@ -13,7 +13,10 @@ jobs:
       - name: UpdateModules
         run: |
           cd static/img/stuff
+          git config --global user.name "PixelOS-Bot"
+          git config --global user.email "pixelos.pixelish@gmail.com"
           git checkout main && git pull
           cd -
           git add static/img/stuff
           git commit -m "updating submodule to latest"
+          git push 
