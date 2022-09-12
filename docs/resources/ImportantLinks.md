@@ -7,6 +7,7 @@ slug: /resources/ImportantLinks
 - [Website](https://pixelos.net/)
 - [GitHub](https://github.com/PixelOS-Pixelish/)
 - [Twitter](https://twitter.com/PixelOSROM)
+- [SourceForge](https://sourceforge.net/projects/pixelos-releases/files/)
 - [Telegram Channel](https://t.me/PixelOSOfficial)
 - [Telegram Chat](https://t.me/pixeloschat)
 - [Automated Workflow Builds](https://t.me/pixelosci)
