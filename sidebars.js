@@ -55,7 +55,12 @@ const sidebars = {
       type: 'doc',
       label: "Banners Archive",
       id: "resources/Banners"
-    }
+    },
+    {
+      type: 'doc',
+      label: "Wallpapers",
+      id: "resources/Wallpapers"
+    },
   ]
 
 };
