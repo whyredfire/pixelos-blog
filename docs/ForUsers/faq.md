@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /faq
+description: Answers to the most common questions asked to us
 ---
 
 # Frequently Asked Questions
