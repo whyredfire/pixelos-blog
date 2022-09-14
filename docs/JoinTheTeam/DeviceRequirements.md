@@ -4,7 +4,6 @@ slug: /JoinTheTeam/DeviceRequirements
 ---
 
 # Device Requirements
-<!-- This document is heavily inspired by https://github.com/PixelExperience/docs -->
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 

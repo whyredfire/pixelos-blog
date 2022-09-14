@@ -9,5 +9,6 @@ slug: /JoinTheTeam
 * [Device Requirements](./JoinTheTeam/DeviceRequirements)
 * [Maintainer Guidelines](./JoinTheTeam/MaintainerGuidelines)
 
-If you fully believe that you satisfy our requirements and go by our guidelines, then go ahead 
-and click on the issues tab and create a New issue. Invalid issues will be closed instantly. 
+If you fully believe that you satisfy our requirements and go by our guidelines, then go ahead and create a New issue in our [Official Devices repository](https://github.com/PixelOS-Pixelish/official_devices/issues/new/choose) and choose `Official maintainer form`. Invalid issues will be closed instantly. 
+
+Some of the requirements are inspired from [PixelExperience](https://github.com/PixelExperience/docs)
