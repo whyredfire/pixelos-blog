@@ -4,6 +4,11 @@ slug: /JoinTheTeam
 ---
 
 # Becoming an Official Maintainer
+:::info
+
+We are currently accepting new maintainers for Android 13 **only**. 
+
+:::
 ## Requirements
 * [Maintainer Requirements](./JoinTheTeam/MaintainersRequirements)
 * [Device Requirements](./JoinTheTeam/DeviceRequirements)
