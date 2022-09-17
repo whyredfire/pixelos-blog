@@ -45,6 +45,14 @@ const sidebars = {
     }
   ],
 
+  // DonateSidebar: [
+  //   {
+  //     type: 'doc',
+  //     label: 'Donate',
+  //     id: 'donate/donate',
+  //   },
+  // ],
+
   ResourcesSideBar: [
     {
       type: 'doc',

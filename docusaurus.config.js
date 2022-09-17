@@ -71,6 +71,12 @@ const config = {
             label: 'Resources',
           },
           {
+            type: 'doc',
+            docId: 'donate/donate',
+            position: 'right',
+            label: 'Donate',
+          },
+          {
             href: 'https://github.com/PixelOS-Pixelish/',
             label: 'GitHub',
             position: 'right',
