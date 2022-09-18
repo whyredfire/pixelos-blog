@@ -41,7 +41,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Guides',
-      items: ["guides/BugReport", "guides/HowToLog"],
+      items: ["guides/BugReport", "guides/HowToLog", "guides/HowToRoot"],
     }
   ],
 
