@@ -5,7 +5,7 @@ slug: /guides/HowToRoot
 
 ## Rooting
 
-:::Prerequisites
+:::info Prerequisites
 Instructions are written assuming you have a device with an unlocked bootloader running PixelOS with PixelOS Recovery installed. 
 
 Commands can be run on Windows CMD, PowerShell, Bash, MacOS Terminal. 
@@ -82,6 +82,6 @@ SafetyNet on all PixelOS builds should pass by default without the need to do an
 
 Some apps may still detect root, try adding them to DenyList. 
 
-Some apps may still break due to root, unfortunately there is nothign we can do to fix them. :(
+Some apps may still break due to root, unfortunately there is nothing we can do to fix them. :(
 
 :::
