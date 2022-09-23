@@ -73,7 +73,7 @@ const config = {
           {
             href: 'https://pixelos.net/',
             label: 'Website',
-            position: 'right',
+            position: 'left',
           },
           {
             type: 'doc',
