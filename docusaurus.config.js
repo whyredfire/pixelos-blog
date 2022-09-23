@@ -71,6 +71,11 @@ const config = {
             label: 'Resources',
           },
           {
+            href: 'https://pixelos.net/',
+            label: 'Website',
+            position: 'right',
+          },
+          {
             type: 'doc',
             docId: 'donate/donate',
             position: 'right',
