@@ -59,7 +59,11 @@ Because they are cute and adorable.
 We don't accept feature requests.
 
 ## DFE
-Credit to SebaUbuntu for this explanation, for further reading you can check out [this](https://kubersharma001.com/reasons-to-stay-encrypted-on-android-and-the-risks-otherwise) blog post 
+
+DFE is not recommended or supported on PixelOS. Android expects the system to be encrypted, so decrypting it introduces all manner of strange behaviour, so we don't accept bug reports from decrypted users. Use at your own risk and do not expect support.
+
+
+Credit to SebaUbuntu for this explanation as to why we don't support it. For further reading you can check out [this](https://kubersharma001.com/reasons-to-stay-encrypted-on-android-and-the-risks-otherwise) blog post.
 
 Little reminder on why you should not flash DFEs
 * Userdata is NOT a sensitive partition, you can do whatever you want with it, but you'll never do damages, and also encryption process is 100% secure and there are 0 risks of bricking (you can actually have more issues if you flash DFE, will explain later)
