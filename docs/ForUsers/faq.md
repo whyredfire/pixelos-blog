@@ -57,3 +57,21 @@ Because they are cute and adorable.
 
 ## Will we add x feature?
 We don't accept feature requests.
+
+## DFE
+Credit to SebaUbuntu for this explanation, for further reading you can check out [this](https://kubersharma001.com/reasons-to-stay-encrypted-on-android-and-the-risks-otherwise) blog post 
+
+Little reminder on why you should not flash DFEs
+* Userdata is NOT a sensitive partition, you can do whatever you want with it, but you'll never do damages, and also encryption process is 100% secure and there are 0 risks of bricking (you can actually have more issues if you flash DFE, will explain later)
+"But I need to format data everytime I flash a new ROM!" Stop flashing multiple ROMs, you should daily drive one, not ruining your EMMC/UFS by flashing 1747858 ROMs
+Also, if ROM maintainers recommends to not use DFE, don't use it
+Being decrypted or encrypted actually changes how Android handles booting
+TL;DR
+Basically Android has 2 phases during boot: pre-decryption and after-decryption
+If you disable encryption, there can be race conditions where stuff expects to start only after data has been decrypted but it starts together with core services, creating issues
+One example is in X00H and X00I, where if you run decrypted will break camera completely
+- "data encryption on custom ROMs is useless": It's actually even more useful! If your device gets stolen, no one will be able to access your data, and the only way is to format data
+
+Conclusion:
+Unless you have a good reason (and there are none), do not never ever flash DFEs
+I don't support DFE in my ROMs, if you report a bug and you're decrypted your issue will be happily discarded
