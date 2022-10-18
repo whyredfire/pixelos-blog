@@ -1,0 +1,183 @@
+---
+slug: blogs/Oct-2022
+title: October 2022 Update
+authors: [dsashwin, helenius147]
+tags: [AOSP, A13, october, update]
+---
+import ScreenshotW from '../../src/components/ScreenshotW';
+import Screenshots from '../../src/components/Screenshots';
+
+Errors..issues..fixes..more errors..more and more isssues..testing, last two weeks has been harsh on us. I am sure some of y'all have been noticing our CI channel, we have been building Pre-Release builds since long, but things took more time than we expected. 
+
+## The "Stable" Release 
+
+Anyways, After almost a couple of weeks of "[Soon](https://twitter.com/PixelOSROM/status/1577313222956388361?s=20&t=FnLXxhY0lh5JDtR3fEiSKg)" we are finally are ready to present the October update of PixelOS [Comes with the patch level `2022-10-05`], with this, PixelOS Android 13 is officially out of Beta. We needed that delay to work out a stuff to change the "Beta" to "Stable". What does this mean? Nothing. They are just version names, previous "beta" (if not stable) was pretty stable for most devices. 
+
+:::danger
+
+Since we have a **lot** of changes moving from Beta to Stable, we recommend that every perform a clean flash to update to this version. 
+
+Support will not be given to those who dirty flash 
+
+:::
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/AboutPhone" alt="About Phone: October Security Patch"/>
+
+</Screenshots>
+
+## Let's talk features
+
+### System-wide Google Sans Font Integration
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/GoogleSans"/>
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/GoogleSans1"/>
+
+</Screenshots>
+
+
+### Smartspace On Lockscreen
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/SmartSpace_Weather"/>
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/SmartSpace_Weather1"/>
+
+</Screenshots>
+
+
+### Optional separate Quick Settings tiles for WiFi and Mobile data
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/MD_Wifi"/>
+
+</Screenshots>
+
+
+### Unlimited Google Photos Backup
+
+
+| ![GPhotos](https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/GPhotosBackup.jpg) | 
+|:--:|
+
+
+###  In-call vibration customizations
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/InCallVib"/>
+
+</Screenshots>
+
+
+### First-class implementation of Repainter app to allow for rootless theming
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/RepainterInteg"/>
+
+</Screenshots>
+
+### Optional Unlink Ring and Notification Volume 
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/RingNotif"/>
+
+</Screenshots>
+
+### Allow removing the screenshots and screenrecords limits for all applications 
+
+excluding DRM content
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/ScreenRec"/>
+
+</Screenshots>
+
+
+### Double-tap to wake and to sleep on statusbar
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/TapToWake_TapToSleep"/>
+
+</Screenshots>
+
+
+### Guestures
+
+<Screenshots>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/gestures1"/>
+
+<ScreenshotW name="https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/oct/gestures2"/>
+
+</Screenshots>
+
+### Full Feature List 
+
+#### General Enhancements:
+- Performance improvements from ProtonAOSP
+- Reduced log spam verbosity
+- Under the hood optimizations
+- Optimized UI responsiveness
+- Flattened apexes for faster access
+
+#### Pixel Goodies:
+- System-wide Google Sans font integration
+- Spoofed Google Photos as Pixel 1XL for unlimited Photos backup in original quality
+- Pixel spoofing for various pixel exclusives
+- Smartspace on lockscreen (weather)
+
+
+#### UX Improvements:
+- Material You boot animation
+- Material You colors on fingerprint authentication ripple animation
+- Bluetooth battery icon in status bar
+- Material style 4G/LTE icons
+- Themed icons for a lot of 3rd party apps
+- Extended Material You theming to more UI elements
+- Add/remove Quick Settings tiles with one click
+- More font size options in 5% steps from 80% to 130%
+
+#### Additional features:
+- Various additional Quick Settings tiles: 
+  - Caffeine 
+  - Heads up 
+  - Sync 
+  - Adaptive Brightness
+  - Ambient display
+  - Always on display
+  - USB tether
+  - Live display
+  - Data Switch
+- Optional separate Quick Settings tiles for WiFi and Mobile data
+- Optional Quick unlock
+- Pin Scramble layout
+- Allow removing the screenshots and screenrecords limits for all applications (excluding DRM content)
+- Allow disabling combined signal icon
+- Status bar icon manager
+- Allow hiding gesture navigation bar
+- Allow toggling screen off FoD for supported devices 
+- Unlinked ring and media notification volumes
+- In-call vibration customizations
+- Optional inverted layout for 3-button navigation
+- Three-fingers-swipe to screenshot
+- Double-tap/long-press power button to toggle torch
+- Double-tap to sleep on lockscreen
+- Double-tap to sleep on statusbar
+- Double tap to trigger doze 
+- Volume button long-press media controls
+- Allow disabling screenshot shutter sound
+- First-class implementation of Repainter app to allow for rootless theming
+
+## Release schedule
+
+At last, for those who ask "wen updoot sar?????", it will roll out within few days from now, depending on maintainers. We hope to finish off all supported devices before the month ends. 
+
