@@ -32,6 +32,7 @@ const config = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
+          postsPerPage: 10
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
