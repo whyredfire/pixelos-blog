@@ -83,7 +83,7 @@ const config = {
             label: 'Donate',
           },
           {
-            href: 'https://github.com/PixelOS-Pixelish/',
+            href: 'https://github.com/PixelOS-AOSP/',
             label: 'GitHub',
             position: 'right',
           },

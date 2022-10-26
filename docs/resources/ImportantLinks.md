@@ -5,7 +5,7 @@ slug: /resources/ImportantLinks
 
 # PixelOS Important Links
 - [Website](https://pixelos.net/)
-- [GitHub](https://github.com/PixelOS-Pixelish/)
+- [GitHub](https://github.com/PixelOS-AOSP/)
 - [Twitter](https://twitter.com/PixelOSROM)
 - [SourceForge](https://sourceforge.net/projects/pixelos-releases/files/)
 - [Telegram Channel](https://t.me/PixelOSOfficial)
