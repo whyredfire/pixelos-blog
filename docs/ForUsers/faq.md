@@ -12,9 +12,6 @@ To provide an experience similar to Google Pixel phones with numerous performanc
 ## Is this a Pixel GSI/Port?
 No, this a source-built custom Android ROM [just like LineageOS]. 
 
-## What is PixelOS based on?
-Releases of Android 12/12L are based on Pixel Experience, while future releases are going to be based on AOSP.
-
 ## How do I flash it on my device? 
 Head over to the [download page](https://pixelos.net/download) for your device, you should find instructions for your device there. [Note: Instructions may not appear for few devices, ask your maintainer to add it]
 
