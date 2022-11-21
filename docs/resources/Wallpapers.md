@@ -5,6 +5,13 @@ slug: /wallpapers
 
 Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](https://t.me/ddvnish))
 
+## PixelOS Layla
+| ![PixelOS Layla Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-layla-desktop.png) |
+|:--:| 
+| Desktop |  
+| ![PixelOS Layla Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-layla-phone.png) |
+| Phone |
+
 ## PixelOS Nilou
 | ![PixelOS Nilou Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-nilou-desktop.png) |
 |:--:| 
@@ -13,10 +20,10 @@ Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](http
 | Phone | 
 
 ## PixelOS Sumi
-| ![PixelOS Sumi Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-sumi.png) |
+| ![PixelOS Sumi Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-sumi-desktop.png) |
 |:--:| 
 | Desktop |  
-| ![PixelOS Sumi Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixleos-phone-sumi.png) |
+| ![PixelOS Sumi Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixleos-sumi-phone.png) |
 | Phone | 
 
 ## PixelOS Lisa

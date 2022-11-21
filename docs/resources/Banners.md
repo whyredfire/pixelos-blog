@@ -8,6 +8,9 @@ slug: /resources/BannersArchive
 ## Latest (Auto-Updated)
 ![PixelOS Banner](https://github.com/PixelOS-AOSP/official_devices/raw/thirteen/banners/latest.png)
 
+## November 10 2022
+![PixelOS Banner](https://github.com/PixelOS-AOSP/official_devices/raw/thirteen/banners/PixelOS-10-Nov-2022.png)
+
 ## October 20 2022
 ![PixelOS Banner](https://github.com/PixelOS-AOSP/official_devices/raw/thirteen/banners/PixelOS-20-Oct-2022.png)
 
