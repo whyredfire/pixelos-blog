@@ -27,15 +27,15 @@ Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](http
 | Phone | 
 
 ## PixelOS Lisa
-| ![PixelOS Lisa Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-lisa.png) |
+| ![PixelOS Lisa Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-lisa-desktop.png) |
 |:--:| 
 | Desktop |  
-| ![PixelOS Lisa Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-lisa.png) |
+| ![PixelOS Lisa Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-lisa-phone.png) |
 | Phone |  
 
 ## PixelOS Saaya
-| ![PixelOS Saaya Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-saaya.png) |
+| ![PixelOS Saaya Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-saaya-desktop.png) |
 |:--:| 
 | Desktop |  
-| ![PixelOS Saaya Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-saaya.png) |
+| ![PixelOS Saaya Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-saaya-phone.png) |
 | Phone |  
