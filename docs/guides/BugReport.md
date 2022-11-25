@@ -20,4 +20,4 @@ Reports from decrypted users, users who changed kernel, users who do not use the
 
 
 Please only report bugs if you can answer all questions above with yes.
-While you report, please mention your device variant, ROM version, kernel version. Please provide logs too (by reading the howtolog note).
+While you report, please mention your device variant, ROM version, kernel version. Please provide logs too (by reading the [this guide](guides/howtolog)).
