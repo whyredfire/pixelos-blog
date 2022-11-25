@@ -34,7 +34,7 @@ Repeatedly asking for updates ("ETAs") through the use of euphemisms in the comm
 :::
 
 ## How to report bugs?
-[Refer to this guide](guides/howtolog) to learn how to take proper logs. Then send these logs over to your maintainer through our community. 
+[Refer to this guide](guides/BugReport) to learn how to take proper logs. Then send these logs over to your maintainer through our community. 
 
 ## Should I clean flash to upgrade to a newer version?
 If a clean flash is necessary, it will be mentioned on either the release post on Telegram or in the changelog section of the device page on the website. If a clean flash isn't mentioned as being necessary, a dirty flash should be fine.
