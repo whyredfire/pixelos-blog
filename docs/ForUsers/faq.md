@@ -21,9 +21,6 @@ No, it is practically not possible. Some features need hardware support and have
 ## Why is the Quick Settings black in light mode?
 With the aim of the project being to provide a similar experience in look and feel to a Google Pixel device, the quick settings will always remain black in light and dark theme the same way it does on Pixel devices.
 
-## Why is there no Pitch Black Theme?
-Using an all black theme on a device with an OLED display is often mistakenly thought to make a noticeable difference with battery life when compared to a dark grey theme. This is actually not true, with several tests showing that screen brightness has a much more pronounced effect on battery life. In addition, it can result in OLED "smearing" where blue/purple trails are visible as elements of the UI move at low brightness, which is caused by pixels in the display turning on and off as things move on the screen. [Read More](https://www.xda-developers.com/amoled-black-vs-gray-dark-mode/)
-
 ## When is the next update?
 PixelOS is free to use and open-source. None of the maintainers are obligated to release updates whenever you want them to, and you are not entitled to them. **Be patient; updates will be released when they are ready.**
 
