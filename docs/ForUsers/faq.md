@@ -73,3 +73,19 @@ One example is in X00H and X00I, where if you run decrypted will break camera co
 Conclusion:
 Unless you have a good reason (and there are none), do not never ever flash DFEs
 I don't support DFE in my ROMs, if you report a bug and you're decrypted your issue will be happily discarded
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473"
+     crossorigin="anonymous"></script>
+
+<!-- PixelOS Website -->
+<ins
+  className="adsbygoogle"
+  style={{ display: "block" }}
+  data-ad-client="ca-pub-8622741211890473"
+  data-ad-slot={8167728112}
+  data-ad-format="auto"
+  data-full-width-responsive="true"
+/>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
