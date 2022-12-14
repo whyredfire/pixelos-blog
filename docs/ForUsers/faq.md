@@ -76,15 +76,13 @@ I don't support DFE in my ROMs, if you report a bug and you're decrypted your is
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473"
      crossorigin="anonymous"></script>
-
-<!-- PixelOS Website -->
 <ins
   className="adsbygoogle"
-  style={{ display: "block" }}
+  style={{ display: "block", textAlign: "center" }}
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
   data-ad-client="ca-pub-8622741211890473"
-  data-ad-slot={8167728112}
-  data-ad-format="auto"
-  data-full-width-responsive="true"
+  data-ad-slot={3686160267}
 />
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
