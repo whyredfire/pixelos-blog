@@ -18,3 +18,5 @@ Before you apply to add your device into our list of official devices, you shoul
 - You **MUST** have your device sources available publicly with proper authorship for each commit.
 
 - You must show the **real** device sources being used.
+
+- You **MUST** have considerable contributions made to your device-side sources. 
