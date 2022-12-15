@@ -25,6 +25,11 @@ const sidebars = {
       link: {type: 'doc', id: 'JoinTheTeam/JoinTheTeam'},
       items: ["JoinTheTeam/MaintainersRequirements", "JoinTheTeam/DeviceRequirements"],
     },
+    {
+      type: "doc",
+      label: "Build PixelOS",
+      id: "JoinTheTeam/BuildGuide"
+    }
   ],
 
   SupportSideBar: [
