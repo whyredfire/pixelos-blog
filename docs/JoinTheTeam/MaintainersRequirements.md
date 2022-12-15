@@ -26,3 +26,7 @@ Before you apply to add your device into our list of official devices, there are
 - You **MUST NOT** lie on the maintainer application, this leads to instant rejection.
 
 - You **SHOULD** have made significant contributions to the device sources. This shows that you are actively involved in Android development and that you are committed to the project. 
+
+- You **SHOULD NOT** be maintaining too many ROMs. This can spread your time and efforts too thin, and can lead to subpar maintenance of the ROMs you are responsible for.
+
+Additionally, other qualitative aspects such as your previous work in development, your behavior towards others, your behavior towards the team, and your activeness in the community will be considered when reviewing your application. 
