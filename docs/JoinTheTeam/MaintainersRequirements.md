@@ -17,7 +17,7 @@ Before you apply to add your device into our list of official devices, there are
 
 - You **MUST** ensure that the ROM is stable for daily usage before applying. This is essential for providing a good user experience and ensuring that the build is widely usable. The context of stability may differ for different devices, so explain regarding any exceptions.
 
-- You **MUST** make the device sources for the ROM publicly available. This allows team members to verify the the provided sources.
+- You **MUST** make the device sources for the ROM publicly available. This allows team members to verify the provided sources.
 
 - **MUST NOT** include any stolen or "kanged" commits without crediting the original author. This is unethical and can harm the ROM's reputation.
 
