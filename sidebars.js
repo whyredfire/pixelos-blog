@@ -26,9 +26,9 @@ const sidebars = {
       items: ["JoinTheTeam/MaintainersRequirements", "JoinTheTeam/DeviceRequirements"],
     },
     {
-      type: "doc",
-      label: "Build PixelOS",
-      id: "JoinTheTeam/BuildGuide"
+      type: "category",
+      label: "Building PixelOS",
+      items: ["BuildingPixelOS/BuildGuide"]
     }
   ],
 
