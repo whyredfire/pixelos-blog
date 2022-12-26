@@ -46,7 +46,6 @@ const config = {
     ({
       navbar: {
         title: 'PixelOS Blog',
-        hideOnScroll: true,
         logo: {
           alt: 'PixelOS Logo',
           src: 'img/favicon.png',
