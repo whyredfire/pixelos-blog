@@ -2,6 +2,11 @@
 title: Banners Archive 
 slug: /resources/BannersArchive 
 ---
+import ArticleAd from '../../src/components/ArticleAd';
+import InArticleAd from '../../src/components/InArticleAd';
+
+
+<ArticleAd/>
 
 # Banner Archive
 
@@ -56,3 +61,4 @@ slug: /resources/BannersArchive
 ## November 27 2021
 ![PixelOS Banner](https://github.com/PixelOS-AOSP/official_devices/raw/thirteen/banners/PixelOS-27-Nov-2021.png)
 
+<InArticleAd/>

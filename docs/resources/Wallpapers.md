@@ -2,6 +2,9 @@
 title: PixelOS Wallpapers
 slug: /wallpapers
 ---
+import ArticleAd from '../../src/components/ArticleAd';
+
+<ArticleAd/>
 
 Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](https://t.me/ddvnish))
 
