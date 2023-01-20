@@ -5,10 +5,9 @@ slug: /resources/BannersArchive
 import ArticleAd from '../../src/components/ArticleAd';
 import InArticleAd from '../../src/components/InArticleAd';
 
-
-<ArticleAd/>
-
 # Banner Archive
+
+
 
 ## Latest (Auto-Updated)
 ![PixelOS Banner](https://github.com/PixelOS-AOSP/official_devices/raw/thirteen/banners/latest.png)
