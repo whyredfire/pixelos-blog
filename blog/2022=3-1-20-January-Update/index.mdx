@@ -10,51 +10,59 @@ import ArticleAd from '../../src/components/ArticleAd';
 import InArticleAd from '../../src/components/InArticleAd';
 
 Welcome back after quite a long absence, the team has been extremely busy with their personal lives because of exams, scheduling, and other personal matters, 
-but we’ve been working hard behind the scenes and are happy to say we’ve made a lot of changes and added a lot more functionality to PixelOS (some has been long requested).
+but we’ve been working hard behind the scenes and are happy to say we’ve **made a lot of changes** and added a lot more functionality to PixelOS (some has been long requested).
 
 <ArticleAd/>
 
 ![PixelOS](https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/eabf51ef0cb9d03c4b2ff944563b29121f768e9f/banners/PixelOS-20-Jan-2023.png)
 
-The first major change isn’t apparent visually, but we’ve rebased almost every repository and have started tracking changes from LineageOS rather than ArrowOS 
-as we were previously. Speaking of things being rebased, we’re happy to let you know that Android 13 QPR 1 has been fully merged, which brings a lot of improvements 
-to AOSP. As there have been a LOT of changes, a clean flash will be MANDATORY FOR ALL DEVICES.
+The first major change isn’t apparent visually, but we’ve **rebased almost every repository** and have started tracking changes from LineageOS rather than ArrowOS 
+as we were previously. Speaking of things being rebased, we’re happy to let you know that Android 13 QPR 1 has been fully merged, which brings a lot of improvements
+to AOSP. 
 
-The GMS components have been updated using the latest versions from the Pixel 7 Pro (Cheetah). 
+:::info
+As there have been a LOT of changes, **a clean flash will be MANDATORY FOR ALL DEVICES**.
+:::
 
-Finally, we’ve improved the implementation of Smooth Display for devices with higher refresh rate screens, which should help improve refresh rate switching 
+The GMS components have been **updated using the latest versions from the Pixel 7 Pro (Cheetah)**.
+
+Finally, we’ve **improved the implementation of Smooth Display** for devices with higher refresh rate screens, which should help improve refresh rate switching 
 for a smoother experience and better battery life.
 
 Now that we’re done with the under-the-hood changes, let’s move on to the fun stuff.
 
-Next comes some features people have been asking about for a while, and we’re glad to let you know that we’ve introduced the option to display 
-network usage stats in the quick settings. You can also now monitor how fast your connection is with the new real-time network speed indicator 
-available in the status bar, which will show your upload and download speeds. We’ve also added network permissions on a per-app basis, meaning 
+Next comes some features people have been asking about for a while, and we’re glad to let you know that we’ve **introduced the option to
+network usage stats in the quick settings**. You can also now **monitor how fast your connection is** with the new **real-time network speed indicator** 
+available in the status bar, which will show your upload and download speeds. We’ve also **added network permissions on a per-app basis**, meaning 
 you can fully restrict the access to Wi-Fi or cellular data for each and every app. 
 
-Some additions to the quick settings tiles have been made also, with a new hotspot toggle in the Internet menu for quick access to turning your 
-hotspot on and off. We’ve also made the Bluetooth menu something optional and restored the original Bluetooth tile for those who prefer a quick 
+Some additions to the quick settings tiles have been made also, with a **new hotspot toggle in the Internet menu** for quick access to turning your 
+hotspot on and off. We’ve also made the **Bluetooth menu something optional and restored the original Bluetooth tile** for those who prefer a quick 
 tap to turn it on and off. 
 
-The Settings menus have had some changes to tidy things up as well, with the combined Privacy and Security tab seen on Pixel devices having been 
-added. We’ve also reorganised the Sound settings menu to make things a little easier to find and navigate in a way that’s more intuitive.
+The Settings menus have had some changes to tidy things up as well, with the **combined Privacy and Security tab** seen on Pixel devices having been 
+added. We’ve also **reorganised the Sound settings menu** to make things a little easier to find and navigate in a way that’s more intuitive.
 
-A question we often get asked is “Why can’t I hide the space under the keyboard even if I turn the pill off?” Good news, you can now. We’ve added a 
-toggle to allow removing the IME space below the keyboard for those who prefer it that way.
+A question we often get asked is “Why can’t I hide the space under the keyboard even if I turn the pill off?” Good news, you can now. We’ve **added a 
+toggle to allow removing the IME space below the keyboard** for those who prefer it that way.
 
-A pitch-black dark mode is something a lot of people really enjoy having, especially on devices with OLED displays. We’ve made some improvements to the 
-pitch-black theme so it should be working better at applying around the UI.
+A pitch-black dark mode is something a lot of people really enjoy having, especially on devices with OLED displays. We’ve made **some improvements to the 
+pitch-black theme** so it should be working better at applying around the UI.
 
-A lot of people seemed to prefer the expandable volume menu accessible from the volume slider and missed it from PixelOS 12/12.1, some good news is that 
+A lot of people seemed to prefer the **expandable volume menu** accessible from the volume slider and missed it from PixelOS 12/12.1, some good news is that 
 we’ve brought it back.
 
-One new addition is an ADB root toggle in the developer options, this means you can use a built-in root alternative to Magisk that can be easily enabled 
+One new addition is an **ADB root toggle** in the developer options, this means you can use a built-in root alternative to Magisk that can be easily enabled 
 and disabled at will without having to patch and flash your kernel.
 
-Auto rotate has now become more granular as well, with configurable rotation angles available so you can choose from 360 rotation or can set it to only 
+:::caution
+Enabling this option gives higher privilage, which can be easily misused. Use this feature with carefully. 
+:::
+
+**Auto rotate has now become more granular** as well, with configurable rotation angles available so you can choose from 360 rotation or can set it to only 
 rotate to certain angles.
 
-Last and far from least, one of the most requested features has been OTA updates, which we can gladly say has returned, meaning easier updates available 
+Last and far from least, one of the most requested features has been **OTA updates**, which we can gladly say has returned, meaning easier updates available 
 to download and install right from the settings menu. 
 
 In summary, the January 2023 Update PixelOS includes the following changes and updates:
