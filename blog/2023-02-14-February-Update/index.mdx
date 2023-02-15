@@ -18,14 +18,14 @@ Our team has been hard at work, merging the latest February security patch along
 
 ![PixelOS](https://raw.githubusercontent.com/PixelOS-Devices/stuff/a4d7ab1045ce4d66f18acb606c3a2a3c6857e419/website/feb2023/pixelos-february.png)
 
-The first change is the switch to an **Immersive Navigation system**, which brings a highly requested feature of hiding the space under the keyboard. 
+The first change is the addition of an option to switch to an **Immersive Navigation system**, which brings a highly requested feature of hiding the space under the keyboard. 
 Another much-requested feature that was missed after the QPR1 rebase was added: the ability to **skip tracks with a long press of the volume button**.
 
-Moving on to the lockscreen, many enhancements have been made. The **power menu can now be hidden when enabling the secure lockscreen** feature. Another addition is the requirement of a password or biometric authentication to access sensitive Quick Settings tiles such as WiFi and Airplane mode. 
+Moving on to the lockscreen, many enhancements have been made. The **power menu can now be hidden when enabling the secure lockscreen** feature. Another addition is the requirement of a password or biometric authentication to access sensitive Quick Settings tiles such as Wi-Fi and Airplane mode. 
 Bottom keyguard shortcuts can now be picked, including a new addition of **flashlight and camera shortcuts**. 
 A toggle to disable the **screenshot shutter sound** has also been added.
 
-On the technical side, **significant changes have been made to GMS and how we spoof devices**. PropImitationHooks is now used to avoid spoofing all apps to Pixel devices, which was prone to causing issues. Instead, only the required Google apps are now spoofed to provide Pixel-exclusive features like GPhotos and Google app. 
+On the technical side, **significant changes have been made to GMS and how we spoof devices**. PropImitationHooks is now used to avoid spoofing all apps to Pixel devices, which was prone to causing issues. Instead, only the required Google apps are now spoofed to provide Pixel-exclusive features like the Google Photos and Google Search apps. 
 **GMS components are now updated from the Pixel 5** instead of the Pixel 7 Pro to avoid issues with the Pixel Launcher/ASI, and a fix to pass CTS/Play Integrity test again has been included (thanks to Dyneteve).
 
 Lastly, we have switched to a new Network Traffic implementation, which offers more customization and fixes an issue faced by some people where the 4G+ indicator would cut out. 
