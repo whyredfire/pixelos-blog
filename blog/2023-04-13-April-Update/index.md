@@ -10,6 +10,12 @@ twitterImage: 'https://raw.githubusercontent.com/PixelOS-Devices/stuff/bfffafcd5
 Welcome back to another PixelOS update!
 This month’s update is larger with many changes from both AOSP and our side. We’ve rebased the March QPR2 patch as well as merged the April patch. We have also rebased most of our repositories from LineageOS.
 
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473"
+     crossorigin="anonymous"></script>
+</head>
+
+
 ![PixelOS](https://raw.githubusercontent.com/PixelOS-Devices/stuff/bfffafcd5b5a953ace4f2d22424826f367391694/website/apr2023/pixelos-april.png)
 
 One of our biggest changes would be the launcher. We’ve heard your reports of the Pixel Launcher draining and heating devices. This [issue](https://www.reddit.com/r/Pixel4a/comments/11mbx0e/pixel_launcher_causing_excess_battery_drain/) seems to affect even Pixel Devices. Unfortunately, we have had to make the difficult decision to drop the Pixel Launcher in favor of the Paranoid Android Launcher for stability reasons. It still maintains the same look and feels with more customization options. 
@@ -36,5 +42,8 @@ In summary, the April 2023 Update PixelOS includes the following updates:
 - Updates to the Dark Mode implementation
 
 For the people who still would prefer to use the Pixel Launcher, we have made a magisk module if you would still like to use it. You can find it [here](https://github.com/PixelOS-Releases/releases-public/releases/download/2023-04-13/PixelLauncher-13.0-20230413.zip). 
+
+import InArticleAd from '../../src/components/InArticleAd'
+<InArticleAd></InArticleAd>
 
 We hope these changes and improvements enhance your experience with PixelOS. Thank you for your continued support, and we look forward to hearing your feedback on the new update.
