@@ -7,7 +7,10 @@ import InArticleAd from '../../src/components/InArticleAd';
 
 # Banner Archive
 
-
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473"
+     crossorigin="anonymous"></script>
+</head>
 
 ## Latest (Auto-Updated)
 ![PixelOS Banner](https://github.com/PixelOS-AOSP/official_devices/raw/thirteen/banners/latest.png)
