@@ -6,6 +6,11 @@ import ArticleAd from '../../src/components/ArticleAd';
 
 <ArticleAd/>
 
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473"
+     crossorigin="anonymous"></script>
+</head>
+
 Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](https://t.me/ddvnish))
 
 ## PixelOS Bluepoison
