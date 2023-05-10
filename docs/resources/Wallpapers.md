@@ -8,6 +8,20 @@ import ArticleAd from '../../src/components/ArticleAd';
 
 Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](https://t.me/ddvnish))
 
+## PixelOS Bluepoison
+| ![PixelOS bluepoison Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-bluepoison.png) |
+|:--:| 
+| Desktop |  
+| ![PixelOS bluepoison Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-bluepoison.png) |
+| Phone |
+
+## PixelOS Kita
+| ![PixelOS Kita Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-kita.png) |
+|:--:| 
+| Desktop |  
+| ![PixelOS Kita Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-kita.png) |
+| Phone |
+
 ## PixelOS Layla
 | ![PixelOS Layla Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-layla-desktop.png) |
 |:--:| 
