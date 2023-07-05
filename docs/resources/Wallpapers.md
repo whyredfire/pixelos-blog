@@ -52,12 +52,12 @@ Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](http
 | ![PixelOS Lisa Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-lisa-desktop.png) |
 |:--:| 
 | Desktop |  
-| ![PixelOS Lisa Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-lisa-phone.png) |
+| ![PixelOS Lisa Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-lisa.png) |
 | Phone |  
 
 ## PixelOS Saaya
 | ![PixelOS Saaya Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-saaya-desktop.png) |
 |:--:| 
 | Desktop |  
-| ![PixelOS Saaya Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-saaya-phone.png) |
+| ![PixelOS Saaya Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-saaya.png) |
 | Phone |  
