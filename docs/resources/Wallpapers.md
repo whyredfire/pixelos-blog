@@ -13,6 +13,30 @@ import ArticleAd from '../../src/components/ArticleAd';
 
 Designed by: Danyscape ([Github](https://github.com/danyscape) | [Telegram](https://t.me/ddvnish))
 
+
+## PixelOS Arima
+| ![PixelOS arima Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-arima.png) |
+|:--:| 
+| Desktop |  
+| ![PixelOS arima Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-arima.png) |
+| Phone |
+
+
+## PixelOS Ruby
+| ![PixelOS ruby Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-ruby.png) |
+|:--:| 
+| Desktop |  
+| ![PixelOS ruby Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-ruby.png) |
+| Phone |
+
+
+## PixelOS Ryo
+| ![PixelOS ryo Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-ryo.png) |
+|:--:| 
+| Desktop |  
+| ![PixelOS ryo Phone](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-phone-ryo.png) |
+| Phone |
+
 ## PixelOS Bluepoison
 | ![PixelOS bluepoison Desktop](https://github.com/PixelOS-Devices/stuff/raw/main/wallpapers/pixelos-desktop-bluepoison.png) |
 |:--:| 
