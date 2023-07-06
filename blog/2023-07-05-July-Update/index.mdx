@@ -14,6 +14,12 @@ We initially aimed to release the update in July, but the release of the July pa
 from Google has been slightly delayed, due to holidays in the USA. 
 We expect to merge the July patch once Google releases it. Stay tuned for it!
 
+:::info UPDATE: 6/7/2023
+July patches have been merged along with a few minor fixes! Devices that were released with the June patches will be re-released in the coming days.
+
+[Read more at the end of this blog.](#july-patch-update)
+:::
+
 Now, let's dive into the changelog:
 
 <head>
@@ -38,11 +44,9 @@ QR Code Scanner and more.
 
 - Disable 5G in battery saver mode: When the device enters battery saver mode, Smart 5G automatically switches off 
 5G connectivity. This helps to reduce power consumption and extend battery life during low-power situations.
-
 - Disable 5G when not on mobile data (such as Wi-Fi): When the device is connected to Wi-Fi or any non-mobile data 
 network, Smart 5G intelligently turns off 5G to avoid unnecessary battery drain. It ensures that 5G is only used 
 when the device is on a mobile data network.
-
 - Disable 5G on non-active data sim: For devices with dual SIM functionality, Smart 5G recognizes which SIM is actively 
 used for data and enables 5G only on that particular SIM. For the non-active data SIM, it disables 5G to save battery 
 and optimize network usage.
@@ -50,7 +54,6 @@ and optimize network usage.
 ## GMS and Face Unlock:
 
 - Switched to partner GMS (Google Mobile Services) to improve overall stability.
-
 - Switched to AOSPA's face unlock implementation, providing much faster and more reliable face 
 recognition.
 
@@ -58,14 +61,10 @@ recognition.
 
 - Fixed an issue where the launcher in light mode would still display dark search results, 
 ensuring a consistent and visually pleasing experience.
-
 - Addressed a bug where the wallpapers section would not open from the home screen, allowing 
 you to customize your device's look effortlessly.
-
 - Fixed a rare issue where two status bars would display, eliminating any potential visual clutter.
-
 - Made improvements to Pitch Black mode, refining the dark theme experience for better readability and aesthetics.
-
 - Fixed an issue where Google battery widget does not update
 
 ## Summary and other miscellaneous changes
@@ -90,12 +89,21 @@ you to customize your device's look effortlessly.
 - Fixed an issue where two status bars used to display 
 - Fixed Google battery widget not updating
 
+import InArticleAd from '../../src/components/InArticleAd'
+<InArticleAd></InArticleAd>
+
+## July Patch Update
+
+July patches have been merged along with a few minor fixes including:
+
+- Updated the default wallpaper to the leaked Pixel 8 licorice dark wallpaper
+- Force enabled the precise/approximate location toggle
+- Fixed an issue with translations where the reboot text was in Spanish
+- Re-imported the 720p and 1440p bootanimations for the devices that use it
+
 We hope you enjoy these updates and enhancements as much as we enjoyed 
 working on them. Your support and feedback are essential in making PixelOS 
 better with each release.
-
-import InArticleAd from '../../src/components/InArticleAd'
-<InArticleAd></InArticleAd>
 
 If you appreciate our work and wish to contribute, consider supporting us by 
 donating. Your donations helps us maintain our infrastructure and continue delivering 
