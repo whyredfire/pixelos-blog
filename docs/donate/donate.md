@@ -10,6 +10,14 @@ There is no obligation to donate to the project, but we're extremely thankful fo
 Donations to the project can be made via:
 
 
-| <img src="https://github.com/PixelOS-Devices/stuff/raw/main/website/UPI.png" width="75"/> | [pixelos@upi](upi://pay?cu=INR&pa=pixelos@upi&pn=PixelOS&am=) |
-|:--:| :--: |
+## PayPal
+
 | <img src="https://pngimg.com/uploads/paypal/paypal_PNG22.png" width="75"/> | [Click Me](https://paypal.me/whyredfire) |
+|:--:| :--: |
+
+## UPI (Preferable for Indian Users)
+
+| <img src="https://github.com/PixelOS-Devices/stuff/blob/main/website/UPI/whyredfire-2-AT-oksbi.png?raw=true" width="150"/> | [**whyredfire-2@oksbi**](upi://pay?pa=whyredfire-2@oksbi&pn=PixelOS) |
+|:--:| :--: |
+| <img src="https://github.com/PixelOS-Devices/stuff/blob/main/website/UPI/pixelos-AT-upi.png?raw=true" width="150"/> | [**pixelos@upi**](upi://pay?cu=INR&pa=pixelos@upi&pn=PixelOS&am=) |
+
