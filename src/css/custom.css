@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 
 @font-face {
-  font-family: 'InterVariable';
+  font-family: 'Inter';
   src: url('https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2') format('woff2 supports variations'),
   url('https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2') format('woff2-variations');
   font-weight: 100 950;
