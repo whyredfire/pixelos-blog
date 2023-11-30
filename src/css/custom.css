@@ -8,10 +8,9 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2') format('woff2 supports variations'),
-  url('https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2') format('woff2-variations');
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  /* font-weight: 100 950;
+  font-stretch: 75% 125%; */
   font-display: swap;
  }
 
