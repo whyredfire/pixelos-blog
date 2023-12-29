@@ -17,7 +17,7 @@ slug: /JoinTheTeam/DeviceRequirements
 
 6. On the encryption, the device **MUST** always have the encryption enabled and enforced as per stock. This is to ensure the security and privacy of the device's data.
 
-7. You **MUST** make the kernel sources for the ROM publicly available, unless the OEM does not provide them. Prebuilt kernels are **DISCOURAGED**.
+7. You **MUST** make the kernel sources for the ROM publicly available, unless the OEM does not provide them. Prebuilt kernels are **DISCOURAGED** for kernel version 5.4 and below.
 
 8. You **MUST NOT** overclock or do anything that can damage the device. This can cause instability and can harm the device.
 
