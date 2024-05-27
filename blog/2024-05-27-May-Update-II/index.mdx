@@ -19,12 +19,12 @@ Hello everyone, a lot has happened since our last update, especially with Play I
 
 For unofficial PixelOS builders, we've pushed the CertifiedPropsOverlay template to PixelOS-AOSP/vendor_extra. You can clone it to vendor/extra and update the values as needed.
 
-Regarding signing, we've integrated the inline signing implementation from YAAP, so your builds will be signed automatically. You just need to generate the private keys and place them in vendor/aosp/signing/keys/ using the following command:
+Regarding signing, we've integrated the inline signing implementation from YAAP (thanks to Ido and John), so your builds will be signed automatically. You just need to generate the private keys and place them in vendor/aosp/signing/keys/ using the following command:
 
-        subject='/C=US/ST=State/L=City/O=Android/OU=Android/CN=Android/emailAddress=email@example.com'
-        for x in releasekey platform shared media networkstack verity otakey testkey sdk_sandbox bluetooth; do \
-            ./development/tools/make_key vendor/aosp/signing/keys/$x "$subject"; \
-        done
+    subject='/C=US/ST=State/L=City/O=Android/OU=Android/CN=Android/emailAddress=email@example.com'
+    for x in releasekey platform shared media networkstack verity otakey testkey sdk_sandbox bluetooth; do \
+        ./development/tools/make_key vendor/aosp/signing/keys/$x "$subject"; \
+    done
 
 where:
 
