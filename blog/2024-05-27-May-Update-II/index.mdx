@@ -1,0 +1,52 @@
+---
+slug: blogs/2024-05-27-May-Update-II
+title: May 2024 Update II
+authors: [basamaryan, whyredfire]
+tags: [PixelOS, AOSP, A14, May]
+---
+
+Hello everyone, a lot has happened since our last update, especially with Play Integrity. Builds are now required to be signed, and we have implemented this change. While you won't be able to update via OTA, you should be able to update (dirty flash) over the previous May build via sideload. We bring this quick update towards the end of May as we understand Play Integrity is extremely important to you all. This will be our last update based on Android 14 QPR2 as QPR3 is around the corner.
+
+<head>
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473"
+    crossorigin="anonymous"
+  ></script>
+</head>
+
+![PixelOS 14](https://raw.githubusercontent.com/PixelOS-Releases/banners/fourteen/pixelos.png)
+
+For unofficial PixelOS builders, we've pushed the CertifiedPropsOverlay template to PixelOS-AOSP/vendor_extra. You can clone it to vendor/extra and update the values as needed.
+
+Regarding signing, we've integrated the inline signing implementation from YAAP, so your builds will be signed automatically. You just need to generate the private keys and place them in vendor/aosp/signing/keys/ using the following command:
+
+        subject='/C=US/ST=State/L=City/O=Android/OU=Android/CN=Android/emailAddress=email@example.com'
+        for x in releasekey platform shared media networkstack verity otakey testkey sdk_sandbox bluetooth; do \
+            ./development/tools/make_key vendor/aosp/signing/keys/$x "$subject"; \
+        done
+
+where:
+
+C: Country code (e.g., US)
+ST: State name
+L: City name
+O: Organization name
+OU: Organizational Unit name
+CN: Common name
+emailAddress: Your email address
+
+Stay tuned for further updates and device-specific changelogs as the update rolls out for supported devices.
+
+We would also like to thank those who have been translating PixelOS into different languages for their contributions as they've been a great help.
+If you've noticed anything that isn't translated in a language you speak, please consider helping out with the translations at https://translate.pixelos.net.
+
+### Support PixelOS's Development
+
+To support our work, consider making a donation at https://blog.pixelos.net/docs/donate to assist in covering our infrastructure expenses.
+
+A heartfelt thank you to our current sponsors: LobodPl, leomanmfk, attdin22, BebopSpikeSpiegel, dassams.
+
+Thanks for being part of PixelOS.
+
+The PixelOS Team
