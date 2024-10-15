@@ -5,7 +5,10 @@ authors: [whyredfire, basamaryan]
 tags: [PixelOS, AOSP, A14, July, QPR3]
 ---
 
-Hello there, the July patches (based on `android-14.0.0_r54`) were merged a few weeks ago however we took some time after that just to fix a few issues 
+import UnofficialBuilder from "../../src/components/mdx/UnofficialBuilder.mdx";
+import Translations from "../../src/components/mdx/Translations.mdx";
+
+Hello there, the July patches (based on `android-14.0.0_r54`) were merged a few weeks ago however we took some time after that just to fix a few issues
 that were on the previous releases and add a few features.
 
 Unfortunately, we were not able to get Circle to Search to work just yet.
@@ -37,27 +40,9 @@ Unfortunately, we were not able to get Circle to Search to work just yet.
     - Added configurable 0, 90, 180 and 270 degree rotation
     - Implemented a check for builds which are not updatable
 
-### A note for unofficial PixelOS builders
+<UnofficialBuilder></UnofficialBuilder>
 
-Signing keys are also required for NFC now, this is something we forgot to mention in the last blog.
-
-    subject='/C=US/ST=State/L=City/O=Android/OU=Android/CN=Android/emailAddress=email@example.com'
-    ./development/tools/make_key signing_keys/nfc "$subject"
-
-where:
-
-C: Country code (e.g., US);
-ST: State name;
-L: City name;
-O: Organization name;
-OU: Organizational Unit name;
-CN: Common name;
-emailAddress: Your email address
-
-### Translations
-
-We would also like to thank those who have been translating PixelOS into different languages for their contributions as they've been a great help.
-If you've noticed anything that isn't translated in a language you speak, please consider helping out with the translations at https://translate.pixelos.net.
+<Translations></Translations>
 
 ### Support PixelOS's Development
 

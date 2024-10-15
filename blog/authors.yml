@@ -1,23 +1,28 @@
 dsashwin:
   name: Ashwin DS
-  title: Core Member 
-  url: https://github.com/geek0609
+  title: Core Member
   image_url: https://github.com/geek0609.png
+  socials:
+    github: geek0609
 
 helenius147:
   name: SashaMcC
   title: Public Relations
-  url: https://github.com/SashaMcC
   image_url: https://github.com/SashaMcC.png
+  socials:
+    github: SashaMcC
 
 whyredfire:
   name: Karan Parashar
   title: Core Member
-  url: https://github.com/whyredfire
   image_url: https://github.com/whyredfire.png
+  socials:
+    github: whyredfire
 
 basamaryan:
   name: aryan
   title: Core Member
-  url: https://twitter.com/Aryannn999
   image_url: https://github.com/basamaryan.png
+  socials:
+    twitter: Aryannn999
+    github: basamaryan

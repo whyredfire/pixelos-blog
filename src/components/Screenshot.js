@@ -1,25 +1,40 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './Screenshots.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./Screenshots.module.css";
 
-export default function Screenshot({name, alt, width, height, showCaption, large}) {
+export default function Screenshot({
+  name,
+  alt,
+  width,
+  height,
+  showCaption,
+  large,
+}) {
   return (
     <div className={clsx(styles.screenshotContainer)}>
       <picture>
-        <source type="image/jpg" srcSet={require(`@site/static/img/${name}.jpg`).default} />
+        <source
+          type="image/jpg"
+          srcSet={require(`@site/static/img/${name}.jpg`).default}
+        />
         <img
-          className={clsx(styles.screenshot, large ? styles.screenshotLarge : "")}
+          className={clsx(
+            styles.screenshot,
+            large ? styles.screenshotLarge : ""
+          )}
           width={width}
           height={height}
-          src={require(`@site/static/img/${name}.jpg`).default} alt={alt} />
+          src={require(`@site/static/img/${name}.jpg`).default}
+          alt={alt}
+        />
       </picture>
 
-      {showCaption &&
+      {showCaption && (
         <>
           <br />
           <span className={clsx(styles.screenshotCaption)}>{alt}</span>
         </>
-      }
+      )}
     </div>
   );
 }

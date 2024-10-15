@@ -2,12 +2,12 @@
 title: Taking Logs
 slug: /guides/howtolog
 ---
-import ArticleAd from '../../src/components/ArticleAd';
 
+import ArticleAd from "../../src/components/ArticleAd";
 
 # Guide to taking logs
 
-<ArticleAd/>
+<ArticleAd />
 
 Occasionally when using a custom ROM or kernel, you may experience an issue. The developer may want something called a logcat or dmesg to look into this but you may not know how to do that. This is valid for themers, ROM developers, and kernel developers.
 
@@ -28,7 +28,7 @@ Any instances of bullying maintainers will not be tolerated and action will be t
 1. Download a logcat app from the Play Store (I will be using Matlog for the rest of this tutorial).
 2. Open the app and grant it root permissions (if you are not rooted and do not want to be, you will need to use ADB below).
 3. Clear the buffer but clicking the three dot menu and hitting clear.
-4. Click on the three dot menu, choose Settings, then Log Buffer(s). 
+4. Click on the three dot menu, choose Settings, then Log Buffer(s).
 5. Tick either radio, main or both depending on the type of bug.
 6. Click on the three dot menu, choose File, then Record.
 7. Duplicate your crash/issue.
@@ -36,16 +36,19 @@ Any instances of bullying maintainers will not be tolerated and action will be t
 9. Send the generated file to your developer/themer following the etiquette below.
 
 ### 2. Getting a dmesg
+
 1. Either download a dmesg app and follow similar steps as above OR download a terminal emulator and continue on.
 2. Open your terminal emulator and type su to enter as the root user.
 3. Type dmesg > /sdcard/test.log
 4. Send the generated file (located in the head folder of your internal storage partition) to your developer, following the etiquette below.
 
 ### 3(a). Getting a ramoops via system:
+
 1. Open a file manager and navigate to /sys/fs/pstore and copy the file named console-ramoops or console-ramoops1 to your sdcard folder.
 2. Send that file to your kernel developer following the etiquette below.
 
 ### 3(b). Getting a ramoops via recovery:
+
 1. Ensure your device has TWRP installed from fastboot, search XDA for help
 2. Immediately after the device reboots, force it to recovery by holding volume buttons.
 3. Click [Advanced] and then [File Manager]. Navigate to /sys/fs/pstore and copy the file named console-ramoops or console-ramoops1 to /sdcard. Send that file to your kernel developer or whoever caused the bug following the etiquette below
@@ -53,11 +56,13 @@ Any instances of bullying maintainers will not be tolerated and action will be t
 ## 2. Using ADB
 
 1.  Download the latest tools from Google:
-    * [Download for Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
-    * [Download for Darwin](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)
-    * [Download for Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+
+    - [Download for Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
+    - [Download for Darwin](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)
+    - [Download for Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2.  Extract those to a folder and move into that folder:
+
     ```bash
     cd <folder_location>
     ```
@@ -66,17 +71,16 @@ Any instances of bullying maintainers will not be tolerated and action will be t
     Settings > Developer Options if you don't see it).
 
 4.  Verify your device is recognized.
-    ```adb devices ```  or  ```./adb devices ```
+    `adb devices ` or `./adb devices `
 
 5.  Clear the logcat buffer.
-    ```adb logcat -c ``` or ```./adb logcat -c```
+    `adb logcat -c ` or `./adb logcat -c`
 
 6.  Take your log:
-    Logcat: ```adb logcat -d > test.log``` or ```./adb logcat -d > test.log```
-    dmesg: ```adb shell dmesg > test.log``` or ```./adb shell dmesg > test.log```
+    Logcat: `adb logcat -d > test.log` or `./adb logcat -d > test.log`
+    dmesg: `adb shell dmesg > test.log` or `./adb shell dmesg > test.log`
 
 7.  Give that log to the appropriate party with a proper report, following the etiquette below.
-
 
 ## Bug Reporting Etiquette
 

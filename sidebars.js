@@ -20,34 +20,37 @@ const sidebars = {
 
   MaintainersSidebar: [
     {
-      type: 'category',
-      label: 'Join The Team',
-      link: {type: 'doc', id: 'JoinTheTeam/JoinTheTeam'},
-      items: ["JoinTheTeam/MaintainersRequirements", "JoinTheTeam/DeviceRequirements"],
+      type: "category",
+      label: "Join The Team",
+      link: { type: "doc", id: "JoinTheTeam/JoinTheTeam" },
+      items: [
+        "JoinTheTeam/MaintainersRequirements",
+        "JoinTheTeam/DeviceRequirements",
+      ],
     },
     {
       type: "category",
       label: "Building PixelOS",
-      items: ["BuildingPixelOS/BuildGuide"]
-    }
+      items: ["BuildingPixelOS/BuildGuide"],
+    },
   ],
 
   SupportSideBar: [
     {
-      type: 'doc',
-      label: 'Frequently Asked Questions',
-      id: 'ForUsers/faq',
+      type: "doc",
+      label: "Frequently Asked Questions",
+      id: "ForUsers/faq",
     },
     {
-      type: 'doc',
-      label: 'Community Guidelines',
-      id: 'ForUsers/CommunityGuidelines',
+      type: "doc",
+      label: "Community Guidelines",
+      id: "ForUsers/CommunityGuidelines",
     },
     {
-      type: 'category',
-      label: 'Guides',
+      type: "category",
+      label: "Guides",
       items: ["guides/BugReport", "guides/HowToLog", "guides/HowToRoot"],
-    }
+    },
   ],
 
   // DonateSidebar: [
@@ -60,22 +63,21 @@ const sidebars = {
 
   ResourcesSideBar: [
     {
-      type: 'doc',
+      type: "doc",
       label: "Important Links",
       id: "resources/ImportantLinks",
     },
     {
-      type: 'doc',
+      type: "doc",
       label: "Banners Archive",
-      id: "resources/Banners"
+      id: "resources/Banners",
     },
     {
-      type: 'doc',
+      type: "doc",
       label: "Wallpapers",
-      id: "resources/Wallpapers"
+      id: "resources/Wallpapers",
     },
-  ]
-
+  ],
 };
 
 module.exports = sidebars;

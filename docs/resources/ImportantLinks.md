@@ -1,9 +1,10 @@
 ---
 title: Important Links
-slug: /resources/ImportantLinks 
+slug: /resources/ImportantLinks
 ---
 
 # PixelOS Important Links
+
 - [Website](https://pixelos.net/)
 - [GitHub](https://github.com/PixelOS-AOSP/)
 - [Twitter](https://twitter.com/PixelOSROM)
@@ -12,4 +13,3 @@ slug: /resources/ImportantLinks
 - [Telegram Chat](https://t.me/pixeloschat)
 - [Automated Workflow Builds](https://t.me/pixelosci)
 - [Translate](https://translate.pixelos.net/)
-

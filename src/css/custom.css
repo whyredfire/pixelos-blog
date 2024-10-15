@@ -7,14 +7,15 @@
 /* You can override the default Infima variables here. */
 
 @font-face {
-  font-family: 'Inter';
-  src: url('https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2') format('woff2 supports variations'),
-  url('https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2') format('woff2-variations');
+  font-family: "Inter";
+  src: url("https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2")
+      format("woff2 supports variations"),
+    url("https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2")
+      format("woff2-variations");
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-display: swap;
- }
-
+}
 
 :root {
   --ifm-color-primary: #2e8555;
@@ -28,11 +29,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --ifm-font-family-monospace: "Inter";
-  --ifm-font-family-base: "Inter"
+  --ifm-font-family-base: "Inter";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #ffa3ac;
   --ifm-color-primary-dark: #ff7986;
   --ifm-color-primary-darker: #ff6473;
@@ -40,8 +41,8 @@
   --ifm-color-primary-light: #ffcdd2;
   --ifm-color-primary-lighter: #ffe2e5;
   --ifm-color-primary-lightest: #ffffff;
-  
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-font-family-monospace: "Inter";
-  --ifm-font-family-base: "Inter"
+  --ifm-font-family-base: "Inter";
 }

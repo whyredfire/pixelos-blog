@@ -3,7 +3,7 @@ sidebar_position: 2
 slug: /JoinTheTeam/MaintainersRequirements
 ---
 
-# Maintainer Requirements 
+# Maintainer Requirements
 
 Before you apply to add your device into our list of official devices, there are certain requirements that you are expected to fulfill in order to be considered. Some of them are outlined below:
 
@@ -25,9 +25,9 @@ Before you apply to add your device into our list of official devices, there are
 
 1.8. You **MUST NOT** lie on the maintainer application, this leads to instant rejection.
 
-1.9. You **SHOULD** have made significant contributions to the device sources. This shows that you are actively involved in Android development and that you are committed to the project. 
+1.9. You **SHOULD** have made significant contributions to the device sources. This shows that you are actively involved in Android development and that you are committed to the project.
 
-1.10.  You **SHOULD NOT** be maintaining too many ROMs. This can spread your time and efforts too thin, and can lead to subpar maintenance of the ROMs you are responsible for.
+1.10. You **SHOULD NOT** be maintaining too many ROMs. This can spread your time and efforts too thin, and can lead to subpar maintenance of the ROMs you are responsible for.
 
 **Other qualitative aspects that will be considered when reviewing your application, such as:**
 
