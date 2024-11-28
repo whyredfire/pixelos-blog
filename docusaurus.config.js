@@ -21,6 +21,10 @@ const config = {
     locales: ["en"],
   },
 
+  future: {
+    experimental_faster: true,
+  },
+
   presets: [
     [
       "classic",
@@ -30,6 +34,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
+          onUntruncatedBlogPosts: "ignore",
           showReadingTime: true,
           routeBasePath: "/",
           postsPerPage: 10,
