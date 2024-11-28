@@ -4,11 +4,11 @@ import styles from "./Screenshots.module.css";
 
 export default function ScreenshotW({
   name,
-  alt,
-  width,
-  height,
-  showCaption,
-  large,
+  alt = "Screenshot",
+  width = 205,
+  height = 433,
+  showCaption = true,
+  large = false,
 }) {
   return (
     <div className={clsx(styles.screenshotContainer)}>
@@ -34,10 +34,3 @@ export default function ScreenshotW({
     </div>
   );
 }
-
-ScreenshotW.defaultProps = {
-  width: 205,
-  height: 433,
-  showCaption: true,
-  large: false,
-};
