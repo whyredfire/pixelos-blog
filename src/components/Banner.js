@@ -35,7 +35,7 @@ export default function Banner({
 
   return (
     <img
-      style={{ borderRadius: "24px" }}
+      style={{ borderRadius: "12px" }}
       src={currentSrc}
       height={height}
       width={width}
