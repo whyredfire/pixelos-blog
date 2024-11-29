@@ -7,12 +7,12 @@
 /* You can override the default Infima variables here. */
 
 @font-face {
-  font-family: "Inter";
+  font-family: "InterVariable";
   src: url("https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2")
       format("woff2 supports variations"),
     url("https://raw.githubusercontent.com/PixelOS-Devices/stuff/main/website/Fonts/web/InterVariable.woff2")
       format("woff2-variations");
-  font-weight: 100 950;
+  font-weight: 100 900;
   font-stretch: 75% 125%;
   font-display: swap;
 }
@@ -28,8 +28,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --ifm-font-family-monospace: "Inter";
-  --ifm-font-family-base: "Inter";
+  --ifm-font-family-monospace: "InterVariable";
+  --ifm-font-family-base: "InterVariable";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -43,6 +43,6 @@
   --ifm-color-primary-lightest: #ffffff;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-font-family-monospace: "Inter";
-  --ifm-font-family-base: "Inter";
+  --ifm-font-family-monospace: "InterVariable";
+  --ifm-font-family-base: "InterVariable";
 }
