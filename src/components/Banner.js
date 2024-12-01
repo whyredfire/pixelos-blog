@@ -11,7 +11,7 @@ export default function Banner({
 
   return (
     <>
-      <div style={{ marginBottom: "12px" }}>
+      <p>
         <img
           src={darkSrc}
           alt={alt}
@@ -28,7 +28,7 @@ export default function Banner({
           height={height}
           width={width}
         />
-      </div>
+      </p>
     </>
   );
 }
