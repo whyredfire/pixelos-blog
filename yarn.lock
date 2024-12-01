@@ -1879,7 +1879,7 @@
     tslib "^2.6.0"
     utility-types "^3.10.0"
 
-"@docusaurus/theme-common@3.6.3":
+"@docusaurus/theme-common@3.6.3", "@docusaurus/theme-common@^3.6.3":
   version "3.6.3"
   resolved "https://registry.npmjs.org/@docusaurus/theme-common/-/theme-common-3.6.3.tgz"
   integrity sha512-b8ZkhczXHDxWWyvz+YJy4t/PlPbEogTTbgnHoflYnH7rmRtyoodTsu8WVM12la5LmlMJBclBXFl29OH8kPE7gg==

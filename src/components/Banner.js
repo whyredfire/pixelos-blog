@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useColorMode } from "@docusaurus/theme-common";
 
 export default function Banner({
   lightSrc,
@@ -7,29 +8,12 @@ export default function Banner({
   height = "auto",
   width = "auto",
 }) {
-  const [currentSrc, setCurrentSrc] = useState();
+  const [currentSrc, setCurrentSrc] = useState(lightSrc);
+  const { colorMode } = useColorMode();
 
   useEffect(() => {
-    const updateSrc = () => {
-      if (darkSrc) {
-        const isDark =
-          document.documentElement.getAttribute("data-theme") === "dark";
-        setCurrentSrc(isDark ? darkSrc : lightSrc);
-      } else {
-        setCurrentSrc(lightSrc);
-      }
-    };
-
-    updateSrc();
-
-    const observer = new MutationObserver(updateSrc);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"],
-    });
-
-    return () => observer.disconnect();
-  }, [lightSrc, darkSrc]);
+    setCurrentSrc(colorMode === "dark" ? darkSrc : lightSrc);
+  }, [colorMode, lightSrc, darkSrc]);
 
   return (
     <>
@@ -41,6 +25,7 @@ export default function Banner({
         alt={alt}
         height={height}
         width={width}
+        loading="lazy"
         style={{ borderRadius: "12px" }}
       />
     </>
