@@ -7,39 +7,42 @@ export default function Banner({
   height = "auto",
   width = "auto",
 }) {
-  const [currentSrc, setCurrentSrc] = useState(lightSrc);
+  const [currentSrc, setCurrentSrc] = useState();
 
   useEffect(() => {
-    const handleThemeChange = () => {
+    const updateSrc = () => {
       if (darkSrc) {
-        const isDarkMode =
+        const isDark =
           document.documentElement.getAttribute("data-theme") === "dark";
-        setCurrentSrc(isDarkMode ? darkSrc : lightSrc);
+        setCurrentSrc(isDark ? darkSrc : lightSrc);
       } else {
         setCurrentSrc(lightSrc);
       }
     };
 
-    handleThemeChange();
+    updateSrc();
 
-    const observer = new MutationObserver(handleThemeChange);
+    const observer = new MutationObserver(updateSrc);
     observer.observe(document.documentElement, {
       attributes: true,
       attributeFilter: ["data-theme"],
     });
 
-    return () => {
-      observer.disconnect();
-    };
+    return () => observer.disconnect();
   }, [lightSrc, darkSrc]);
 
   return (
-    <img
-      style={{ borderRadius: "12px" }}
-      src={currentSrc}
-      height={height}
-      width={width}
-      alt={alt}
-    />
+    <>
+      <link rel="preload" as="image" fetchpriority="high" href={lightSrc} />
+      <link rel="preload" as="image" fetchpriority="high" href={darkSrc} />
+
+      <img
+        src={currentSrc}
+        alt={alt}
+        height={height}
+        width={width}
+        style={{ borderRadius: "12px" }}
+      />
+    </>
   );
 }
