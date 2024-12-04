@@ -8,7 +8,7 @@ slug: /JoinTheTeam
 :::info
 
 We are currently not accepting new maintainers.<br/>
-All the applications will be on hold till **PixelOS 15 release**.
+All the applications will be on hold till **PixelOS 15 Stable release**.
 
 :::
 
