@@ -8,6 +8,7 @@ export default function Banner({
   width = "auto",
 }) {
   const isDark = useColorMode().colorMode === "dark";
+  if (darkSrc == null) darkSrc = lightSrc;
 
   return (
     <>
