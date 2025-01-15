@@ -5,13 +5,6 @@ slug: /JoinTheTeam
 
 # Becoming an Official Maintainer
 
-:::info
-
-We are currently not accepting new maintainers.<br/>
-All the applications will be on hold till **PixelOS 15 Stable release**.
-
-:::
-
 ## Requirements
 
 ### \* [Maintainer Requirements](./JoinTheTeam/MaintainersRequirements)
