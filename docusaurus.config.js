@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "PixelOS",
-  url: "https://blog.pixelos.net",
+  url: "https://archive.blog.pixelos.net",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
