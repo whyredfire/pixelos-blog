@@ -9,6 +9,17 @@ pageClass: changelogSection
 [015560e](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/015560eae41b0e39d2a08b33e84a5e2cd3bce7ba) repopick: try fetching pixelos gerrit changes from GitHub first _(by inferno0230)_  
 
 ## 2025-11-23
+[0c21fc6](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0c21fc688d056a4c945f0881a93a2c4a42f5f7fb) SystemUI: Hide HEVC screen recording when no HW codec is available _(by Ido Ben-Hur)_  
+[8ddee44](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8ddee44b756c26b8efab11dc6fdb9484b5bfe61b) screenrecord: Set entire screenrecord as the default option _(by Sourajit Karmakar)_  
+[1e87966](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/1e8796699adb75005fe2497876a20711d3e2e2f3) Screenrecord: Save preferences for permission dialog _(by Pranav Vashi)_  
+[ca16434](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ca16434a137a18708adeae3426ea5c24b228695c) Screenrecord: Add an option to use HEVC _(by Ido Ben-Hur)_  
+[51d97f0](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/51d97f0f0bf38260d57e96257bf35e0f1a7483fd) Screenrecord: Allow to reduce 3 second screen record timer _(by maitreya29)_  
+[6da6bd4](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6da6bd4e46e13907359178144d5e0c7168329482) Screenrecord: Add an option to record for longer _(by Ido Ben-Hur)_  
+[da1fba8](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/da1fba81d0c94473666326504ad589ce4f52c2c2) Screenrecord: Make low quality bitrate scalable per device _(by Ido Ben-Hur)_  
+[1df6c47](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/1df6c47cb0bfb3d7505c52fd2a0db33b049affa7) Screenrecord: add low quality option _(by ezio84)_  
+[ac7e17b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ac7e17b26561bd2d6848469ca6a3da3b53153ecf) Screenrecord: Allow to select AVC codec profile level _(by iusmac)_  
+[9c4224a](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9c4224a313680c6b458bf1386d23b510bfc12841) Screenrecord: Allow limiting the max framerate _(by Kuba Wojciechowski)_  
+[bd44218](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/bd44218dfc016019629e8a52ae0bcc1ac940a912) SystemUI: Screenrecord: Add delete action to the notification _(by Sourajit Karmakar)_  
 [f04db93](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f04db931b51af4eb4268e85cf4ab66ccbf3d5fca) Revert "PropImitationHooks: Add option for GMS to get cert chain" _(by hridaya)_  
 [8d394d5](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8d394d5d72b5ef9b4dbc8e7cb56d652ac48fb83a) KeyboxImitationHooks: Revert recent changes _(by inferno0230)_  
 
