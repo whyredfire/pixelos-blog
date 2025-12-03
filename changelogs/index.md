@@ -4,6 +4,16 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-11-30
+[1afab6c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/1afab6c33878dfa7e9d043f956fde61de5fa4770) SystemUI: Fix smartspace layout _(by Pranav Vashi)_  
+[1f23f62](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/1f23f6245c1d28e78d92cf5225823357b5f247c8) SystemUI: Remove enhanced smartspace height _(by Pranav Vashi)_  
+[82a1832](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/82a1832f8af0f898dd6810cf31d93d23ecbc7c36) SystemUI: SmartSpace: Remove top padding from smartspace date card _(by Adithya R)_  
+[7048808](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/704880884b6fd3db38039bbb894f891d2c4e3b03) SystemUI: improve alignment between keyguard clock and date _(by Dmitry Muhomor)_  
+[ce871bb](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ce871bbaf51a5acae01778f2c232dee98601c6c6) SystemUI: don't hide date text on lockscreen when media is playing _(by Dmitry Muhomor)_  
+[536807c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/536807cb57c08c92dbea4a594b7fd96e6d53d0b9) SystemUI: Bring back smartspace start paddings to what they were before _(by Ido Ben-Hur)_  
+[debf5a9](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/debf5a95b8e4e23e7f167752a0c3c0be6518de2f) SystemUI: Do not crash SystemUI if smartspace cannot be built _(by minaripenguin)_  
+[092dfce](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/092dfce645e8682fdc97f53bfd1a7450b9c3c6d0) [SQUASH] SystemUI: Implement Reverse-engineered Smartspace _(by Daniel Jacob Chittoor)_  
+
 ## 2025-11-26
 [79b7144](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/79b71447a7bdf7b674fef1c9c881d46f4125c349) Revert "Settings: Add option to disable forcing strong integrity" _(by hridaya)_  
 [015560e](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/015560eae41b0e39d2a08b33e84a5e2cd3bce7ba) repopick: try fetching pixelos gerrit changes from GitHub first _(by inferno0230)_  
