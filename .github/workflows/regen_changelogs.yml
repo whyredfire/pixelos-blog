@@ -6,9 +6,9 @@ on:
     - cron: "0 0 * * *"
 
 env:
-  BRANCH: "sixteen"
+  BRANCH: "sixteen-qpr1"
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  START_DATE: "2025-10-01"
+  START_DATE: "2025-11-01"
 
 jobs:
   regen-changelogs:
@@ -21,24 +21,19 @@ jobs:
 
       - name: Get Date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-      - name: Set-up python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip"
-      - run: pip install -r .github/scripts/requirements.txt
+      - name: Install python dependencies
+        run: pip install -r .github/scripts/requirements.txt
 
       - name: Regen changelogs
         run: |
           cd changelogs
           python ../.github/scripts/main.py
 
-      - name: Commit changes
-        run: |
-          git config user.name "PixelOS-Bot"
-          git config user.email "auto-bot@pixelos.net"
-          git add changelogs
-          git commit -m 'Regen changelogs as per ${{ steps.date.outputs.date }}'
-          git push
+      - name: Commit to repo
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          commit_message: Regen changelogs as per ${{ steps.date.outputs.date }}
+          file_pattern: "changelogs"
