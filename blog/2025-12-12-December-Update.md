@@ -10,7 +10,7 @@ This month’s update rebases PixelOS to the latest Android 16 QPR1 release (`an
 
 <Banner src="https://github.com/PixelOS-CI/blog_assets/blob/main/2025-12-12/banner.png?raw=True" />
 
-Oh, and that “Android 16 feature” everyone kept asking about? Quick Settings Blur — actually a 16 QPR1 thing.
+Oh, and that “Android 16 feature” everyone kept asking about? Material Design 3 Expressive — actually a 16 QPR1 thing.
 Good news: we’re on QPR1 now, so enjoy.
 
 As always, detailed changelogs can be found at <https://blog.pixelos.net/changelogs>.
