@@ -4,8 +4,25 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-13
+[f91ad98](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f91ad98a677c3219309fb63542ce42237cef2b90) SystemUI: Move keyguard date slice row to header _(by Adithya R)_  
+[b8cc13b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b8cc13bbdc94380450917d463f06767e84a4c553) SystemUI: Allow setting end section in keyguard slices _(by Adithya R)_  
+[d272d3a](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d272d3a66a73594228544722db0c68407cff5160) Revert "SystemUI: Fix constraints for keyguard slice view" _(by hridaya)_  
+[eebd4f3](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/eebd4f3124dd339f6c3603bde7a2902be77e5cdd) SystemUI: Move keyguard date slice row to a separate function _(by Adithya R)_  
+[f65e546](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f65e546553b6c375dd1f149c6482d11068a097bd) SystemUI: Rewrite data switch QS tile _(by Adithya R)_  
+[4957c48](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4957c48332566a497e43874c17aa790edcb69bc3) fixup! b8a55bbd3b1116ff1b882763bce7a586c203a4af Settings: Append cust… _(by hridaya)_  
+[e9fa0a8](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/e9fa0a8146e5ccc87b9d92d70041cacc0bd1c137) vendor: Don’t include addon.d script _(by nift4)_  
+[f5cb8db](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f5cb8dbd099ec0d1845bcda96c1be4fc794ab2c5) fixup! Settings: Add option to scramble pin layout when unlocking (1/2). _(by hridaya)_  
+[a379104](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/a3791044e3cc34b54da08ee007847d41b5d51619) fixup! Settings: Hide power menu on secure lockscreen [2/2] _(by hridaya)_  
+[b8a55bb](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/b8a55bbd3b1116ff1b882763bce7a586c203a4af) fixup! Settings: Append custom version on build display id _(by hridaya)_  
+[2a9fb66](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2a9fb66a1eaf8eff8e032d78e6139fd619409714) Revert "SystemUI: Fix suspicious spaces around new mobile icons" _(by hridaya)_  
+[c980f5e](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c980f5e28a0e086293d783d6d5ba249075fa6ebc) Keyguard: Add option to scramble pin layout when unlocking (2/2). _(by Adnan)_  
+[fa4b4e1](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/fa4b4e13ac783a3ad840e5325159544557cd38f2) Revert "Keyguard: Add option to scramble pin layout when unlocking [2… _(by hridaya)_  
+[297f636](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/297f636f721b630ddcc729f4b78e9d14eb53be62) SystemUI: Update buildNumber flow to return null _(by NurKeinNeid)_  
+
 ## 2025-12-11
 [1d0b14b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1d0b14b1fe1a631cc2a9b57471418e6fba27f481) aconfig: Enable screen off udfps _(by aswin7469)_  
+[e9f622c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e9f622c4db63cbf86472802e299d6abef35909f6) BatteryService: Add support for oem fast charger detection _(by Alexander Martinz)_  
 [9531b65](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/9531b652280d47b6bd1b48543bf1e72e38f7c441) config: version: Remove unused ro.custom.fingerprint property _(by hridaya)_  
 [b7a5a19](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/b7a5a191ba22525ba14264b68ff978fffdf7ac59) fixup! Settings: Forward port lock pattern grid size (2/2) _(by Bruno Martins)_  
 [756378e](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/756378edb1589317481db801d9f896ee1617df1a) ChooseLockPatternSize: Remove header start padding in SuW _(by Dhina17)_  
