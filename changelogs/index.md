@@ -28,6 +28,7 @@ pageClass: changelogSection
 [756378e](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/756378edb1589317481db801d9f896ee1617df1a) ChooseLockPatternSize: Remove header start padding in SuW _(by Dhina17)_  
 [fac43ab](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/fac43aba500352fbeff173d44f00b2680d1e6078) Settings: Fix choose pattern size activity theme issues _(by Dhina17)_  
 [4a44ae2](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4a44ae2dedaadaef9227447756083833ec793374) Settings: Remove unused pattern sizes layout _(by Dhina17)_  
+[317a83e](https://github.com/PixelOS-AOSP/android_build_soong/commit/317a83eaa5fd36bcc9a7cb8da34cc85609744fb2) Revert "cleanbuild: Add `recovery_kernel` to installclean files" _(by Michael Bestas)_  
 [cbc544a](https://github.com/PixelOS-AOSP/android_system_sepolicy/commit/cbc544ac7e2f646a518b1cdc2aa6d01534476536) Grant vendor keymaster_tee access to vendor gatekeeper data _(by Bruno Martins)_  
 [f84715a](https://github.com/PixelOS-AOSP/android_build/commit/f84715a7262ae28f3423df53b9d6e7297dca90a2) Reland: build: Enable super image build rules depending on single sup… _(by Yumi Yukimura)_  
 [4a9fa34](https://github.com/PixelOS-AOSP/android_build/commit/4a9fa3461fe036e0021a5b20eef19bd510b93aaf) Revert "Remove PRODUCT_RETROFIT_DYNAMIC_PARTITIONS." _(by Nolen Johnson)_  
