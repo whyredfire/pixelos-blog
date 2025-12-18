@@ -26,4 +26,4 @@ A heartfelt thank you to our sponsors from the last release: [LobodPl](https://g
 
 Thanks for being part of PixelOS.
 
-<InArticleAd />
+

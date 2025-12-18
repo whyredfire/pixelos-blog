@@ -61,4 +61,4 @@ A heartfelt thank you to our sponsors from the last release: [aphirst](https://g
 
 Thanks for being part of PixelOS.
 
-<InArticleAd />
+

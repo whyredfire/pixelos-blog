@@ -52,7 +52,7 @@ To support our work, consider making a donation at <https://blog.pixelos.net/doc
 A heartfelt thank you to our sponsors from the last two months: roland-schweiger, LobodPl, leomanmfk, kAleks12, Ivomola, aphirst and two more private sponsors.
 A big shoutout to [RR](https://t.me/resurrectionremixx) for donating the banner for this release—we absolutely loved it!
 
-<InArticleAd />
+
 
 Thanks for being part of PixelOS.
 

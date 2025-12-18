@@ -40,4 +40,4 @@ A heartfelt thank you to our sponsors from the last release: LobodPl, leomanmfk,
 
 Thanks for being part of PixelOS.
 
-<InArticleAd />
+

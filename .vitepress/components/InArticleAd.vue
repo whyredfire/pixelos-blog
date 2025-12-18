@@ -26,6 +26,6 @@ onMounted(() => {
 <style scoped>
 .google-ad-container {
   margin: 2rem 0;
-  min-height: 280px; /* Reserve space to reduce CLS */
+  min-height: 140px; /* Reduced height by half */
 }
 </style>
