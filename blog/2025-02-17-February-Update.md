@@ -46,3 +46,5 @@ To support our work, consider making a donation at <https://blog.pixelos.net/doc
 A heartfelt thank you to our sponsors from the last release: LobodPl, leomanmfk, kAleks12, AnyOne06, Ivomola, aphirst and one other private sponsor.
 
 Thanks for being part of PixelOS.
+
+<InArticleAd />

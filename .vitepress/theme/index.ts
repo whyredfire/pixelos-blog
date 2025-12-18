@@ -9,6 +9,8 @@ import DeviceScreenshot from "../components/DeviceScreenshot.vue";
 
 import VPArticle from "../components/VPArticle.vue";
 import VPArticles from "../components/VPArticles.vue";
+import InArticleAd from "../components/InArticleAd.vue";
+
 
 export default {
   extends: DefaultTheme,
@@ -23,5 +25,7 @@ export default {
     app.component("DeviceScreenshot", DeviceScreenshot);
     app.component("VPArticle", VPArticle);
     app.component("VPArticles", VPArticles);
+    app.component("InArticleAd", InArticleAd);
+
   },
 } satisfies Theme;

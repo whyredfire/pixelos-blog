@@ -60,3 +60,5 @@ To support our work, consider making a donation at <https://blog.pixelos.net/doc
 A heartfelt thank you to our sponsors from the last release: [aphirst](https://github.com/aphirst), [Ivomola](https://github.com/Ivomola), [LobodPl](https://github.com/LobodPl) and our beloved [kawaaii](https://github.com/hridaya2004).
 
 Thanks for being part of PixelOS.
+
+<InArticleAd />
