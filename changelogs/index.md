@@ -4,6 +4,12 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-17
+[f20af91](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f20af91266b5b66acd755242d685a7430b376854) Settings: Remove CustomDialogPreference _(by hridaya)_  
+
+## 2025-12-16
+[4d569cc](https://github.com/PixelOS-AOSP/android_vendor_custom-preference/commit/4d569cc0e76cb4183c0761bebd1f8c81f5fc7a95) CustomPreferenceLib: Import CustomDialogPreference _(by hridaya)_  
+
 ## 2025-12-13
 [f91ad98](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f91ad98a677c3219309fb63542ce42237cef2b90) SystemUI: Move keyguard date slice row to header _(by Adithya R)_  
 [b8cc13b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b8cc13bbdc94380450917d463f06767e84a4c553) SystemUI: Allow setting end section in keyguard slices _(by Adithya R)_  
