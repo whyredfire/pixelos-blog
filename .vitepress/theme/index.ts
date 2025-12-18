@@ -10,6 +10,8 @@ import DeviceScreenshot from "../components/DeviceScreenshot.vue";
 import VPArticle from "../components/VPArticle.vue";
 import VPArticles from "../components/VPArticles.vue";
 import InArticleAd from "../components/InArticleAd.vue";
+import SideAd from "../components/SideAd.vue";
+
 
 
 export default {
@@ -17,7 +19,9 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       "doc-after": () => h(InArticleAd),
+      "aside-outline-after": () => h(SideAd),
     });
+
   },
   enhanceApp({ app }) {
     // ...
