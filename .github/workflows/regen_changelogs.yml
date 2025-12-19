@@ -7,26 +7,28 @@ on:
 
 env:
   BRANCH: "sixteen-qpr1"
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   START_DATE: "2025-11-01"
 
 jobs:
   regen-changelogs:
     runs-on: ubuntu-slim
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v5
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Get Date
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
       - name: Install python dependencies
-        run: pip install -r .github/scripts/requirements.txt
+        run: pip install gql[all] requests
 
       - name: Regen changelogs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd changelogs
           python ../.github/scripts/main.py
