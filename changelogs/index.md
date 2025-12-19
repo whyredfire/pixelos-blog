@@ -4,6 +4,13 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-18
+[287fedd](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/287feddba554f2688ad812c35d7dc69d8901f92c) Settings: Network Traffic [2/2] _(by Jon Haus)_  
+[66196fe](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/66196fe3a14ba83c7d0ef080275e8271aebadedd) SystemUI: Network Traffic [1/2] _(by Jon Haus)_  
+[d750f6f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d750f6f92a759325961720a5955fa132e7e03918) SystemUI: Add custom statusbar item holder _(by Sam Mortimer)_  
+[5d5f278](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5d5f278dd2bdff9e2460b85c730f323d2a88a4bf) Revert "SystemUI: Introduce network speed indicator on statusbar" _(by hridaya)_  
+[7eef477](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/7eef47767f380fe38f94e23b631c5ad12466830d) fixup! base: Initial SenseProvider for FaceSense service _(by hridaya)_  
+
 ## 2025-12-17
 [f20af91](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f20af91266b5b66acd755242d685a7430b376854) Settings: Remove CustomDialogPreference _(by hridaya)_  
 
