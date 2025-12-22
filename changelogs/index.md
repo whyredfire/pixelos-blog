@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-21
+[05a7a4f](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/05a7a4fff649be2878e99e233d4fd2c65da53c9f) fixup! Settings: Add preference for TouchGestures _(by chandu078)_  
+
 ## 2025-12-18
 [287fedd](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/287feddba554f2688ad812c35d7dc69d8901f92c) Settings: Network Traffic [2/2] _(by Jon Haus)_  
 [66196fe](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/66196fe3a14ba83c7d0ef080275e8271aebadedd) SystemUI: Network Traffic [1/2] _(by Jon Haus)_  
