@@ -4,8 +4,18 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-22
+[ccde38b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ccde38b969925ea8242eb87536f6c85fa5a60be9) Revert "release: Bump Security String to 2025-12-01" _(by hridaya)_  
+[c2ff3d4](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c2ff3d44b022d2bec76dd672b222a07f1ffbe310) Merge branch 'lineage-23.1' of https://github.com/LineageOS/android_v… _(by hridaya)_  
+[47da66d](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/47da66d079d267b4e4dd184a1499c9503af6bcfc) fixup! SystemUI: Status bar tuner improvements _(by hridaya)_  
+[762521b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/762521b13c2a73445715d65b4ffa2cd03e7ff3ee) Revert "Show the vibrate icon in the Status Bar by default" _(by Michael Bestas)_  
+
 ## 2025-12-21
 [05a7a4f](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/05a7a4fff649be2878e99e233d4fd2c65da53c9f) fixup! Settings: Add preference for TouchGestures _(by chandu078)_  
+
+## 2025-12-20
+[ce9f28b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ce9f28bad7abd2d3336c4d040d21bb4c4af52b94) overlay: Enable statusbar vibrate icon by default _(by Michael Bestas)_  
+[88ff498](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/88ff4982c1e2fb0b78cd2892dd7fc1ed8bcfb906) release: Bump Security String to 2025-12-01 _(by Michael Bestas)_  
 
 ## 2025-12-18
 [287fedd](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/287feddba554f2688ad812c35d7dc69d8901f92c) Settings: Network Traffic [2/2] _(by Jon Haus)_  
@@ -18,9 +28,13 @@ pageClass: changelogSection
 [f20af91](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f20af91266b5b66acd755242d685a7430b376854) Settings: Remove CustomDialogPreference _(by hridaya)_  
 
 ## 2025-12-16
+[5a1e360](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/5a1e360b1e8a18cc84e43c800c1269a1e55ca0bf) Revert "Tap & Pay - Give 'learn more' a URL" _(by Michael Bestas)_  
+[4e0bd1f](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/4e0bd1f3817119e33890daae4ca210d28acd0682) Revert "Add overlay for fingerprint help URL" _(by Michael Bestas)_  
+[c682025](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c682025f906b3d66fdff4e9b13c829df16a91a78) aconfig: Enable screen off udfps _(by aswin7469)_  
 [4d569cc](https://github.com/PixelOS-AOSP/android_vendor_custom-preference/commit/4d569cc0e76cb4183c0761bebd1f8c81f5fc7a95) CustomPreferenceLib: Import CustomDialogPreference _(by hridaya)_  
 
 ## 2025-12-13
+[cd6b050](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/cd6b0506ff348aec9b5cde0327982e2b56afe548) config: tablet: Inherit from large_screen_common.mk _(by Bruno Martins)_  
 [f91ad98](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f91ad98a677c3219309fb63542ce42237cef2b90) SystemUI: Move keyguard date slice row to header _(by Adithya R)_  
 [b8cc13b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b8cc13bbdc94380450917d463f06767e84a4c553) SystemUI: Allow setting end section in keyguard slices _(by Adithya R)_  
 [d272d3a](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d272d3a66a73594228544722db0c68407cff5160) Revert "SystemUI: Fix constraints for keyguard slice view" _(by hridaya)_  
@@ -64,6 +78,9 @@ pageClass: changelogSection
 [dbfef6f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/dbfef6ffe73802de7bcc070c840411882c0555d2) SystemUI: ToastUI: Fixup toast theme _(by Ido Ben-Hur)_  
 [f1eef60](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f1eef603d844c8ed006ddb503dbde91d6ebb8ad7) base: Add lineagehealth IFastCharge interface support _(by LuK1337)_  
 [955b014](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/955b01443bd9e394c224e296e250e14393666867) fixup! SystemUI: Update TILE_SPEC for AutoBrightness and DataSwitch Q… _(by hridaya)_  
+
+## 2025-12-08
+[01e88e9](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/01e88e9d4c06029c2d237c1b316294ecb1f45532) vars: Winter cleanup _(by Michael Bestas)_  
 
 ## 2025-12-07
 [ad69289](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ad69289edcdf449a8890a89c1e087062f7fc0efc) Settings: Add lineagehealth IFastCharge interface support _(by LuK1337)_  
@@ -532,6 +549,9 @@ pageClass: changelogSection
 [2e33b25](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2e33b2555f650856a9051df309e1b1b1cec6ad05) Support for device specific key handlers _(by Bruno Martins)_  
 [f161ef8](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f161ef88f5da508de9f5a3857b7f70c4970767bc) fw/b: Add setting to allow tethering to use VPN upstreams _(by Oliver Scott)_  
 [58c505e](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/58c505e345d6e5175e4fb64b33a0820ed01d24ad) core: Implement ADBRootService _(by LuK1337)_  
+
+## 2025-12-04
+[d3ff888](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d3ff88860585890c187f767244b81759d17eb0cf) Disable yet another gms update component _(by Michael Bestas)_  
 
 ## 2025-12-03
 [d31ef27](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d31ef2798e72b49e345182460297c541f2d61add) kernel: Prevent creating any files in kernel platform source tree _(by Thomas Makin)_  
