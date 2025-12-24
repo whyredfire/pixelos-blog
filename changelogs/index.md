@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-23
+[13958bf](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/13958bf6481686025667c54a045e03530549ee7c) Merge "charger: Add soong namespace" into sixteen-qpr1 _(by Hridaya Prajapati)_  
+[70da0a2](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/70da0a2caa70d1e10d19bab5b81ea9b6819e9344) Merge "vendor: Use Pixel charger animation" into sixteen-qpr1 _(by Hridaya Prajapati)_  
+[8f7b0c4](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/8f7b0c49453b9ba31a0ddbff6d20eb03e27641e9) roomservice: Use better search api to find devices _(by inferno0230)_  
+
 ## 2025-12-22
 [ccde38b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ccde38b969925ea8242eb87536f6c85fa5a60be9) Revert "release: Bump Security String to 2025-12-01" _(by hridaya)_  
 [c2ff3d4](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c2ff3d44b022d2bec76dd672b222a07f1ffbe310) Merge branch 'lineage-23.1' of https://github.com/LineageOS/android_v… _(by hridaya)_  
@@ -16,6 +21,9 @@ pageClass: changelogSection
 ## 2025-12-20
 [ce9f28b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ce9f28bad7abd2d3336c4d040d21bb4c4af52b94) overlay: Enable statusbar vibrate icon by default _(by Michael Bestas)_  
 [88ff498](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/88ff4982c1e2fb0b78cd2892dd7fc1ed8bcfb906) release: Bump Security String to 2025-12-01 _(by Michael Bestas)_  
+
+## 2025-12-19
+[9d5f609](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/9d5f60990685fcea440da955924aa8d283c042df) vendor: Use Pixel charger animation _(by charcoal4494)_  
 
 ## 2025-12-18
 [287fedd](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/287feddba554f2688ad812c35d7dc69d8901f92c) Settings: Network Traffic [2/2] _(by Jon Haus)_  
@@ -32,6 +40,7 @@ pageClass: changelogSection
 [4e0bd1f](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/4e0bd1f3817119e33890daae4ca210d28acd0682) Revert "Add overlay for fingerprint help URL" _(by Michael Bestas)_  
 [c682025](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c682025f906b3d66fdff4e9b13c829df16a91a78) aconfig: Enable screen off udfps _(by aswin7469)_  
 [4d569cc](https://github.com/PixelOS-AOSP/android_vendor_custom-preference/commit/4d569cc0e76cb4183c0761bebd1f8c81f5fc7a95) CustomPreferenceLib: Import CustomDialogPreference _(by hridaya)_  
+[e8f9c50](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/e8f9c506fcf3f294fca0e4fbb29679344790780c) charger: Add soong namespace _(by charcoal4494)_  
 
 ## 2025-12-13
 [cd6b050](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/cd6b0506ff348aec9b5cde0327982e2b56afe548) config: tablet: Inherit from large_screen_common.mk _(by Bruno Martins)_  
