@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-12-31
+[ed18aba](https://github.com/PixelOS-AOSP/android_device_custom_sepolicy/commit/ed18aba7cbd2e99d1f59ac3b4132e985ee9d6b65) sepolicy: Label ro.surface_flinger.blur_disabled_by_default _(by basamaryan)_  
+[e9b96d7](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e9b96d7af36b52c4b923819932e4259b42f65dbd) wm: Allow disabling window blurs by default _(by basamaryan)_  
+
 ## 2025-12-23
 [13958bf](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/13958bf6481686025667c54a045e03530549ee7c) Merge "charger: Add soong namespace" into sixteen-qpr1 _(by Hridaya Prajapati)_  
 [70da0a2](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/70da0a2caa70d1e10d19bab5b81ea9b6819e9344) Merge "vendor: Use Pixel charger animation" into sixteen-qpr1 _(by Hridaya Prajapati)_  
