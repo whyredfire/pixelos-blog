@@ -5,6 +5,7 @@ pageClass: changelogSection
 # Changelogs
 
 ## 2025-12-31
+[00e6e6d](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/00e6e6d8101decd5e1cbefc53b680df3a574a74d) Reapply "Settings: Protect sensitive data on the about phone" _(by althafvly)_  
 [ed18aba](https://github.com/PixelOS-AOSP/android_device_custom_sepolicy/commit/ed18aba7cbd2e99d1f59ac3b4132e985ee9d6b65) sepolicy: Label ro.surface_flinger.blur_disabled_by_default _(by basamaryan)_  
 [e9b96d7](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e9b96d7af36b52c4b923819932e4259b42f65dbd) wm: Allow disabling window blurs by default _(by basamaryan)_  
 
