@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-01-04
+[5d8f9bc](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5d8f9bce04e99d0f5733916c2095e1b4f654795c) SystemUI: Make battery clickable again _(by Ido Ben-Hur)_  
+[b380de9](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b380de9050cddbc45d2ff2ba13468e527c3b23c0) Revert "SystemUI: Make battery clickable again" _(by hridaya)_  
+[3103ee6](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3103ee6405b6b9e5401bcf7d4e6152683525b18c) SystemUI: screen_record_options: Switch to common textAppearance style _(by hridaya)_  
+
 ## 2026-01-02
 [727a750](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/727a750b1f70796f09c5b7224c54635b65c2b011) Updater: Update framework library from Android 16 QPR1 _(by Ashwin Devi Srinivasan)_  
 
