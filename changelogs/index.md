@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-01-08
+[a6e39fe](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/a6e39fe3a0456236205c466723db5282913e534d) Updater: Refactor layout to improve performance _(by hridaya)_  
+[773d565](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/773d565e3ab758990887e82304c21b4f55f98f6f) Updater: Adapt UI for Android 16 QPR1 _(by Ashwin Devi Srinivasan)_  
+
 ## 2026-01-04
 [5d8f9bc](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5d8f9bce04e99d0f5733916c2095e1b4f654795c) SystemUI: Make battery clickable again _(by Ido Ben-Hur)_  
 [b380de9](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b380de9050cddbc45d2ff2ba13468e527c3b23c0) Revert "SystemUI: Make battery clickable again" _(by hridaya)_  
