@@ -4,9 +4,78 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-01-12
+[d611747](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d611747925d1851892dc8d3b03bec3167ea03f21) Merge "Screenrecord: Fix notifications not being dismissed" into sixt… _(by Karan Parashar)_  
+[11adf7d](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/11adf7db6df6d913a947d33a268aa395a1bacff7) Settings: Allow choosing volume panel position [2/2] _(by Ido Ben-Hur)_  
+[7ecfde7](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/7ecfde764149d47bad252402a57910baa021c82c) SystemUI: VolumeDialog: Adapt support for left gravity _(by Pranav Vashi)_  
+[b56d9ba](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b56d9ba5f9d99c71c926376db212163e30dc1f12) SystemUI: Allow choosing volume panel position [1/2] _(by a.derendyaev)_  
+[fb5ff6f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/fb5ff6f0484065303c6f0dba6b39d0b4fab733cf) Screenrecord: Fix notifications not being dismissed _(by Ido Ben-Hur)_  
+[6d8d39a](https://github.com/PixelOS-AOSP/android_device_custom_sepolicy/commit/6d8d39aaf13432ee009d23814a02cef7abf46ffe) sepolicy: label more sched sysctl toggles _(by basamaryan)_  
+[0b0b514](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0b0b5143ec1d96970c61503f7d0e298408cb6075) SystemUI: Adapt SSDataProviders to use ViewGroup instead _(by kleidione Freitas)_  
+[382390b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/382390b2319fba249e46f190f86cc5ed615dcd04) SystemUI: Disable smartspace default view _(by aswin7469)_  
+[44b1718](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/44b17187ba345a0119c99bf67b76c1e7ce76d08e) SystemUI: Implement the newly reverse-engineered smartspace _(by ralph950412)_  
+[03e1cc7](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/03e1cc7f65142ca197818e7609dd6f8882585754) Revert "SystemUI: Move keyguard date slice row to a separate function" _(by hridaya)_  
+[6900beb](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6900bebf651dd9c09f11be5acdd85314f364039c) Revert "SystemUI: Allow setting end section in keyguard slices" _(by hridaya)_  
+[2d6c68a](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2d6c68ac3751bc72640c44bb5488066f53e29ae1) Revert "SystemUI: Move keyguard date slice row to header" _(by hridaya)_  
+[4d448cb](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/4d448cb34e665f33c680ade6e53b75f7df4481c5) health: Catch all exceptions in fastcharge handleSettingChange _(by Michael Bestas)_  
+[8ade4e5](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8ade4e5b260257a78742d232ab6ac021df062307) sdk: Export receiver for health service _(by Nick Reuter)_  
+[46fe90c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/46fe90c77f88f612333da4d8f4d3717dc41747bf) fixup! SystemUI: screen_record_options: Switch to common textAppearan… _(by hridaya)_  
+[9530bba](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9530bbad5a53ca4e32393d85daf35cdb872220d1) base: Add an icon for NR_SA (5G Standalone) data connection _(by Ido Ben-Hur)_  
+[59f995f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/59f995f4680c06a4a9d4b1e709e03c0553bcaf3c) base: Update some icons to MD2 _(by Anushek Prasal)_  
+[899ef8d](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/899ef8dc28b33adce94f858e1d318b90293425b5) SettingsLib: Update 5G+ icon to Silk design _(by Adithya R)_  
+[ee6414b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ee6414b0d31287eea4893b9aa201eef3bbfb88be) SettingsLib: Update 4G+ icon to Silk design as well _(by TH779)_  
+[dfeb722](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/dfeb722fb4ce95405d49d1753d530fab83e50f00) SettingsLib: Update LTE+ icon as per new Silk design _(by Adithya)_  
+[db95ab6](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/db95ab615f4793b740374bc2fd8568828fea486f) dolby: Run ktfmt _(by basamaryan)_  
+[1d7c3dc](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/1d7c3dc856c6cc405b7c58936179ada6db18c841) dolby: Move away from Xiaomi naming _(by AdarshGrewal)_  
+[d14796e](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/d14796e5d8d4fd0ce95560072db5d8bc2518ec3c) dolby: Fix IEQ icon crash _(by basamaryan)_  
+[33e2422](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/33e2422d4dab088d60383ef930e490bc7f24101d) dolby: Apply Expressive theme _(by Bruno Martins)_  
+[32e23d2](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/32e23d21d41a610dabfa6fa5142898f9cdbe8dda) dolby: Convert for M3E support _(by Bruno Martins)_  
+[7395fe0](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/7395fe0e01e1b2f8fbc333f744da30e4c4ae502d) dolby: Use new method to listen for preference changes _(by Bruno Martins)_  
+[e17e3c3](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/e17e3c3628019b324c129da9ecd227696eabf4fe) dolby: Move to PreferenceFragmentCompat _(by AnierinB)_  
+[e8216b6](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/e8216b64e7ac7bacd3d5adae44d78e0757cdd490) dolby: [Tooltip] Use new positioning logic _(by Kevin Truong)_  
+[d83808d](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/d83808d5ed5daea72b62a65cd2b82ab6be89bbbf) dolby: Use all shared resources from devicesettings _(by Bruno Martins)_  
+[5cf6963](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/5cf696333337a04dee0f0e8a846394f338c58418) dolby: Use index of value for selecting ieq icon _(by Adithya R)_  
+[1143a82](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/1143a825ab093770adfaa39c1c277b4d6a845ca9) dolby: Allow disabling stereo widening levels _(by Adithya R)_  
+[6a57159](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/6a571593f1c5eac9ceb7d373b51ad2abb20492f1) dolby: Enable bass enhancer on loudspeaker too _(by Adithya R)_  
+[864419b](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/864419be951229506381e6f8aa171656c7577416) dolby: Properly update profile preference summary _(by Adithya R)_  
+[6c8d3f7](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/6c8d3f79102e9e04ab64bb583ee4f46cd8892d30) dolby: Add support for `Custom` profile _(by Adithya R)_  
+[59f3c25](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/59f3c250b28a13e4db55105d665ce3765d565eb8) dolby: Update EqualizerScreen background color for 15 _(by Fabian Leutenegger)_  
+[e68276b](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/e68276b7ddc53380fb0a4980455c92994625189d) dolby: Remove deprecated PlainTooltipBox _(by Pranav Vashi)_  
+[bdf9afa](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/bdf9afac4e6eb13d67903d2e2babd886f37b5b7b) dolby: Fix build with kotlinc 1.9.0 _(by basamaryan)_  
+[0f963ce](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/0f963ce81bb4b40d5da3686f4fd287d96a974ce0) dolby: Convert to SwitchPreferenceCompat _(by Michael Bestas)_  
+[5a03456](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/5a03456ce9b01eebd2a97373b24a80835917175f) dolby: Migrate to CompoundButton.OnCheckedChangeListener _(by Chaohui Wang)_  
+[563c55b](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/563c55b372979a181fc8ea4dfc7fb06950a96255) dolby: Enable use_resource_processor for all sysui deps _(by Peter Kalauskas)_  
+[60b589d](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/60b589d0d6fcd9fdff6997d3ef253667a96c286f) dolby: Make sure to persist value after toggling QS tile _(by Adithya R)_  
+[954a7c7](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/954a7c76e421d25d03ec24c27afaa0a0243476d0) dolby: Add intelligent equalizer setting _(by Adithya R)_  
+[4ceca85](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/4ceca858134b1665916823bce4d9ac9eba30044b) dolby: Introduce graphical equalizer _(by Adithya R)_  
+[3a790bb](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/3a790bb1d6504a9cee553c3f0f4d7bc474ece008) dolby: Add launcher icon _(by Pranav Vashi)_  
+[7b419f7](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/7b419f7df3264d4fca57d338f77767aba0f4cb94) fixup! dolby: Restore all settings upon bootup _(by Adithya R)_  
+[014d1c9](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/014d1c97a35608cd16472315d1f202b09b7d0a39) dolby: Restore current profile _after_ resetting profiles _(by Adithya R)_  
+[114a3db](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/114a3db197df3d0878c9ae5e23893ffdf1929cb2) dolby: Do not set volume leveler amount _(by Adithya R)_  
+[dee02ab](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/dee02ab4a2cb07b1abdff10d0a93c5ef0aef1773) dolby: Restore all settings upon bootup _(by Adithya R)_  
+[0502bd8](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/0502bd81e61434206b0be4ca21ea524481885884) dolby: Rewrite in Kotlin _(by Adithya R)_  
+[ecc1f4c](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/ecc1f4ccd2b0070a1b8251b9c1c55b34168a24bb) dolby: Revert "Re-enable speaker virtualization after bootup" _(by Adithya R)_  
+[9cb22d8](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/9cb22d87d69d5143b63f8d7d8e2d7154dd11b4c5) Introduce Dolby Atmos _(by Adithya R)_  
+
+## 2026-01-11
+[0d4539c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/0d4539cf753dab9b36e8c4f66d8a978f203b3924) Revert "Include GoogleSansFlex font and friends" _(by Ashwin Devi Srinivasan)_  
+[af068ad](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/af068adbf84889c2450c639422f4d947352c8936) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+[110c647](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/110c64748634c8f59c487fcf2b1755415636b4b7) Merge branch 'lineage-23.1' of github.com:LineageOS/android_vendor_li… _(by Ashwin Devi Srinivasan)_  
+[10aa439](https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/10aa4392068cd2ef312352156bd328fca17ac5bf) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+[304ac80](https://github.com/PixelOS-AOSP/android_packages_services_Telecomm/commit/304ac803f314d3cca6f4501833aa1d0523d3e90b) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+[28a19f7](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/28a19f771c2be08b2b4e5cc1ef74a45df657a3e9) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+
+## 2026-01-10
+[720110d](https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/720110dd9e520a27ddae482eab62f7c0134789cf) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+[efe830c](https://github.com/PixelOS-AOSP/android_frameworks_native/commit/efe830cc63d478daf7bd8a9f11da3bb4529e6928) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+
 ## 2026-01-08
 [a6e39fe](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/a6e39fe3a0456236205c466723db5282913e534d) Updater: Refactor layout to improve performance _(by hridaya)_  
 [773d565](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/773d565e3ab758990887e82304c21b4f55f98f6f) Updater: Adapt UI for Android 16 QPR1 _(by Ashwin Devi Srinivasan)_  
+
+## 2026-01-06
+[8a0be68](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8a0be68ac6ed0cdb9e0311ea96f03984e6c4cec3) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by basamaryan)_  
+[1559504](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1559504abe28c7709a9976841dfefaab0a7a096b) release: Bump Security String to 2026-01-01 _(by Michael Bestas)_  
 
 ## 2026-01-04
 [5d8f9bc](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5d8f9bce04e99d0f5733916c2095e1b4f654795c) SystemUI: Make battery clickable again _(by Ido Ben-Hur)_  
@@ -21,12 +90,19 @@ pageClass: changelogSection
 [ed18aba](https://github.com/PixelOS-AOSP/android_device_custom_sepolicy/commit/ed18aba7cbd2e99d1f59ac3b4132e985ee9d6b65) sepolicy: Label ro.surface_flinger.blur_disabled_by_default _(by basamaryan)_  
 [e9b96d7](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e9b96d7af36b52c4b923819932e4259b42f65dbd) wm: Allow disabling window blurs by default _(by basamaryan)_  
 
+## 2025-12-30
+[d68e47e](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d68e47e333cb8f60d18f66ca7763eb3f95c12070) Include GoogleSansFlex font and friends _(by Luca Stefani)_  
+
+## 2025-12-26
+[a6d4d4d](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a6d4d4d79edce29e0b821bbadb50dc2e4f31f4d0) overlay: Enable statusbar vibrate icon by default _(by Michael Bestas)_  
+
 ## 2025-12-23
 [13958bf](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/13958bf6481686025667c54a045e03530549ee7c) Merge "charger: Add soong namespace" into sixteen-qpr1 _(by Hridaya Prajapati)_  
 [70da0a2](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/70da0a2caa70d1e10d19bab5b81ea9b6819e9344) Merge "vendor: Use Pixel charger animation" into sixteen-qpr1 _(by Hridaya Prajapati)_  
 [8f7b0c4](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/8f7b0c49453b9ba31a0ddbff6d20eb03e27641e9) roomservice: Use better search api to find devices _(by inferno0230)_  
 
 ## 2025-12-22
+[ef7fcff](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ef7fcff43a1db547e67c974c4d7e9658c0faf0c9) envsetup: Allow skipping OOT kernel build _(by Michael Bestas)_  
 [ccde38b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ccde38b969925ea8242eb87536f6c85fa5a60be9) Revert "release: Bump Security String to 2025-12-01" _(by hridaya)_  
 [c2ff3d4](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c2ff3d44b022d2bec76dd672b222a07f1ffbe310) Merge branch 'lineage-23.1' of https://github.com/LineageOS/android_v… _(by hridaya)_  
 [47da66d](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/47da66d079d267b4e4dd184a1499c9503af6bcfc) fixup! SystemUI: Status bar tuner improvements _(by hridaya)_  
@@ -36,10 +112,19 @@ pageClass: changelogSection
 [05a7a4f](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/05a7a4fff649be2878e99e233d4fd2c65da53c9f) fixup! Settings: Add preference for TouchGestures _(by chandu078)_  
 
 ## 2025-12-20
+[5104c0c](https://github.com/PixelOS-AOSP/android_external_dng_sdk/commit/5104c0cda9165197ae2c4a200b2d0289c84242ef) dng_area_task: Provide backwards compatibility with legacy blobs _(by Bruno Martins)_  
+[a30fa95](https://github.com/PixelOS-AOSP/android_external_dng_sdk/commit/a30fa95cb929e56221281cb2f98eecf1295d99ed) libbng_sdk: Make it available to vendor again _(by Bruno Martins)_  
+[3c5f9f8](https://github.com/PixelOS-AOSP/android_external_skia/commit/3c5f9f839c76c47db2b923a0a2066f27df681e7b) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
+[c33c1c9](https://github.com/PixelOS-AOSP/android_external_dng_sdk/commit/c33c1c99028ed83bf792a98b441f1642030f9d31) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
+[5154ee0](https://github.com/PixelOS-AOSP/android_external_sqlite/commit/5154ee00c4d540a0af9f17d383ec8b396dd5de8d) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
+[da22b8d](https://github.com/PixelOS-AOSP/android_packages_apps_CertInstaller/commit/da22b8d4e0901763e4b055a7874ce4b292e84c89) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
+[9eebaa8](https://github.com/PixelOS-AOSP/android_build_release/commit/9eebaa8d31a2f1b55c2eeefca543c2e37a9018b0) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
 [ce9f28b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ce9f28bad7abd2d3336c4d040d21bb4c4af52b94) overlay: Enable statusbar vibrate icon by default _(by Michael Bestas)_  
 [88ff498](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/88ff4982c1e2fb0b78cd2892dd7fc1ed8bcfb906) release: Bump Security String to 2025-12-01 _(by Michael Bestas)_  
 
 ## 2025-12-19
+[7f6f488](https://github.com/PixelOS-AOSP/android_packages_services_Mms/commit/7f6f4889b98e87e355203eb03f424b0865f797cc) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
+[5dee545](https://github.com/PixelOS-AOSP/android_packages_modules_IntentResolver/commit/5dee5452172ccb7c08e78acc36a17becc3b97040) Merge tag 'android-security-16.0.0_r3' into staging/lineage-23.1_merg… _(by Michael Bestas)_  
 [9d5f609](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/9d5f60990685fcea440da955924aa8d283c042df) vendor: Use Pixel charger animation _(by charcoal4494)_  
 
 ## 2025-12-18
@@ -1019,6 +1104,9 @@ pageClass: changelogSection
 
 ## 2025-11-17
 [c4e86b6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c4e86b6e4a3960ae2740a340cb7a0058cbbbe5e5) build: Fix sourcing envsetup from anywhere _(by Michael Bestas)_  
+
+## 2025-11-13
+[ee1f655](https://github.com/PixelOS-AOSP/android_packages_services_Mms/commit/ee1f655785b60408a29bbffb80da420db6e6fea2) Merge tag 'android-16.0.0_r3' into staging/lineage-23.0_merge-android… _(by Michael Bestas)_  
 
 ## 2025-11-12
 [fe724bb](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/fe724bb306bb29b689c0d066ec01cf2cfa4d31bc) Merge branch 'lineage-23.0' of https://github.com/LineageOS/android_v… _(by hridaya)_  
