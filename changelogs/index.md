@@ -68,6 +68,7 @@ pageClass: changelogSection
 ## 2026-01-10
 [720110d](https://github.com/PixelOS-AOSP/android_frameworks_opt_telephony/commit/720110dd9e520a27ddae482eab62f7c0134789cf) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
 [efe830c](https://github.com/PixelOS-AOSP/android_frameworks_native/commit/efe830cc63d478daf7bd8a9f11da3bb4529e6928) Merge tag 'android-security-16.0.0_r3' of https://android.googlesourc… _(by Ashwin Devi Srinivasan)_  
+[c4ffac2](https://github.com/PixelOS-AOSP/android_system_extras/commit/c4ffac2d5d1e342f14509649777af66d62fd3300) Revert "lpmake: Remove --auto-slot-suffixing support." _(by Terminator-J)_  
 
 ## 2026-01-08
 [a6e39fe](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/a6e39fe3a0456236205c466723db5282913e534d) Updater: Refactor layout to improve performance _(by hridaya)_  
