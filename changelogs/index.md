@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-01-25
+[1ff1742](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/1ff17420375ca37fc26341d2518ce1be5bb2be30) CAMX: CHI: Added support for handling jpeg debug data. _(by Abhinav sohane)_  
+
 ## 2026-01-12
 [d611747](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d611747925d1851892dc8d3b03bec3167ea03f21) Merge "Screenrecord: Fix notifications not being dismissed" into sixt… _(by Karan Parashar)_  
 [11adf7d](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/11adf7db6df6d913a947d33a268aa395a1bacff7) Settings: Allow choosing volume panel position [2/2] _(by Ido Ben-Hur)_  
