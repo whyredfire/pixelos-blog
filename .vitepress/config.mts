@@ -176,6 +176,10 @@ export default defineConfig({
               text: "Wallpapers",
               link: "/docs/resources/wallpapers",
             },
+            {
+              text: "Screenshots",
+              link: "/docs/resources/Screenshots",
+            },
           ],
         },
       ],

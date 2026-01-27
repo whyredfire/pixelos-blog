@@ -8,3 +8,4 @@
 - [Telegram Chat](https://t.me/pixeloschat)
 - [Automated Workflow Builds](https://t.me/pixelosci)
 - [Translate](https://translate.pixelos.net/)
+- [Screenshots](/docs/resources/Screenshots)
