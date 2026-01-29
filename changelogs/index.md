@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-01-26
+[9992ff7](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/9992ff7ac8a71c7c0b3eabd0119c4cc383715dcc) Updater: Fix pending reboot state not shown _(by pjgowtham)_  
+[e4d85e4](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/e4d85e4f37cc0d632cf974112ac2ad9bee89bddb) Updater: Fix local update installation progress not showing _(by pjgowtham)_  
+[7dae552](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/7dae55244fca732cd127a8f4436c525ca7b16b05) Updater: Handle setPerformanceMode failure gracefully _(by Ashwin Devi Srinivasan)_  
+
 ## 2026-01-25
 [1ff1742](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/1ff17420375ca37fc26341d2518ce1be5bb2be30) CAMX: CHI: Added support for handling jpeg debug data. _(by Abhinav sohane)_  
 
