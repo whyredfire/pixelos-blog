@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-03-30
+[d9b2caf](https://github.com/PixelOS-AOSP/android_build_soong/commit/d9b2caf24366ff6b1e0f4e391cc7f4da9ec3be26) check_boot_jars: Generic-ify mediatek\..* regex _(by Giovanni Ricca)_  
+
 ## 2026-03-18
 [2185d33](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2185d33a662bfd3c38b7750a7dfadd7b95b85628) SystemUI: keep Wi-Fi QS tile subtitle Wi-Fi-specific _(by Ashwin Devi Srinivasan)_  
 
