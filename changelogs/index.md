@@ -4,8 +4,32 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-07
+[dedf340](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/dedf34041cda701cd1f3b20df077bb15917a3a94) Restore Meta+Backspace=Back keyboard shortcut _(by Sean McCreary)_  
+
 ## 2026-03-30
 [d9b2caf](https://github.com/PixelOS-AOSP/android_build_soong/commit/d9b2caf24366ff6b1e0f4e391cc7f4da9ec3be26) check_boot_jars: Generic-ify mediatek\..* regex _(by Giovanni Ricca)_  
+
+## 2026-03-20
+[cd4d5d3](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/cd4d5d3e7b54430eb6f169565506d7efeb1eb0b6) common: Add google dialer call recording feature _(by Karan Parashar)_  
+[b938ac7](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b938ac717ac20cb07f32418222a325108b008d76) SystemUI: conditionally hide ticks on flashlight slider _(by Ashwin Devi Srinivasan)_  
+
+## 2026-03-19
+[4cffec2](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/4cffec2a642f8eb0c443933809ff89c236524f8e) SystemUI: make flashlight slider use primitive haptics if supported _(by John Galt)_  
+[b5f6c61](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b5f6c6114820efe292174ea616a96b840f08a1ba) SystemUI: make flashlight tile use real levels _(by John Galt)_  
+[d52102f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d52102fd9d3af94cc10aeb570a93a03c2d1e648f) SystemUI: Allow long click on flashlight tile _(by Abhay Singh Gill)_  
+[d09456c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d09456c4a8d39bb44376d5b17723f3941abf6625) SystemUI: Extend flashlight strength logic to flashlight controller _(by Abhay Singh Gill)_  
+[b0c2084](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b0c208462d4c15e4462cc8c96356a659a485c6c9) SystemUI: Fix flashlight strength control detection _(by NurKeinNeid)_  
+[a509f7f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a509f7f53deea36e14e883ec829f59a0084e3946) SystemUI: Add flashlight strength control _(by Abhay Singh Gill)_  
+[aecb0c3](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/aecb0c3a148893d67e32e562dc7861423e908251) Settings: Don't index VmTerminal fragment if device doesn't support it _(by LuK1337)_  
+[7e340f3](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/7e340f3e34e97970bedc8c651a0110cc09deaaee) Settings: avoid button overlap in legacy UDFPS enroll UI _(by Ashwin Devi Srinivasan)_  
+[ae27ebe](https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/ae27ebed2baac429c7c92e7581fec9d12f0dd71e) Skip updating value added A2DP offload codecs to MM audio over AIDL _(by Satish Kumar Kodishala)_  
+[be4e6d5](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/be4e6d5ce8bed2dbe2818fe3cb25cb30a3fba6f9) SettingsLib: Ensure divider is set before view is returned in onCreat… _(by LuK1337)_  
+[9ff17fe](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9ff17fe30bc426510a76b658872b5a7bef952124) Fix external storage access with system user locked _(by Tommy Webb)_  
+[3f67e49](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3f67e4912c60b71ebf679214434221aa09acb90c) Fix secondary user crash with system user locked _(by Tommy Webb)_  
+[30bf806](https://github.com/PixelOS-AOSP/android_bootable_recovery/commit/30bf806263e4083997fcd913ecc51b44ed0fbdc2) fixup!: recovery: Return reboot recovery install code _(by Nicholas Lim)_  
+[6f7c247](https://github.com/PixelOS-AOSP/android_system_core/commit/6f7c247deaf6babab0d216c113625e8c30d0c177) Partially Revert "usbd: Exit in case of charger mode." _(by Yumi Yukimura)_  
+[7e9d9cf](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/7e9d9cfb9d23cd1d72511cd0495a322ed102c75d) SystemUI: Handle secondary click for mobile data tile _(by Pranav Vashi)_  
 
 ## 2026-03-18
 [2185d33](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2185d33a662bfd3c38b7750a7dfadd7b95b85628) SystemUI: keep Wi-Fi QS tile subtitle Wi-Fi-specific _(by Ashwin Devi Srinivasan)_  
@@ -23,6 +47,16 @@ pageClass: changelogSection
 [f661314](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f661314774ef56353ee093b7dc75853a1d84e3f3) Revert "Ignore pinned Windows" _(by Achim Thesmann)_  
 [d146070](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d1460708bc4a16c5fd255af28903f751c3a5accc) Apps clearing self data shouldn't get permissions restored _(by Nate Myren)_  
 [ed14954](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ed14954e89267244068cbc29b0960a3ce5df2f0e) fixup! Prevent long press on profile notifs when locked _(by Julia Reynolds)_  
+
+## 2026-03-10
+[19c7908](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/19c79083bbdd513d486ba5203d6e56e4182c1fec) CameraProviderExtension: add enabled bool and always set torch _(by John Galt)_  
+[53744fd](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/53744fd509348f4e9448b31ff82ce655a97ce650) CameraProviderExtension: Reset strength level on torch off _(by bengris32)_  
+[e3b08f4](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/e3b08f4b6230f915e7a2860a89bb657f1d0ac73a) CameraProviderExtension: Update mTorchStrengthLevel with new level _(by bengris32)_  
+[5cc40e4](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/5cc40e4009a8d0b26e02db0895861fd16de450e9) CameraProviderExtension: Return BAD_VALUE for invalid strength level _(by bengris32)_  
+[d2e1559](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/d2e1559cbeed626b14693e7fc139dd4d9e233a19) CameraProviderExtension: Use weak linkage for default implementations _(by bengris32)_  
+[60df0ac](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/60df0acec4c2abcb5d81c95affd945cba852d7eb) CameraProviderExtension: Inject strength in fixupTorchStrengthTags _(by bengris32)_  
+[8a43eda](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/8a43eda48d0ae72eac1a57d2fa9e54a9555d083f) camera: Add extension to control torch light strength _(by Dhina17)_  
+[dd17209](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/dd17209a4a01be9fec6a5e1718cec7ffd58910c0) libcameraservice: support disabling torch control support _(by John Galt)_  
 
 ## 2026-03-08
 [274a478](https://github.com/PixelOS-AOSP/android_hardware_interfaces/commit/274a478d86e42b29694df6cae09a3aa364a579ba) fixup! audio: Allow opting out of speaker_layout_channel_mask field _(by Yuan Tong)_  
