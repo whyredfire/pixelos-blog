@@ -13,11 +13,11 @@ For this month's update, we've incorporated the April security patch from `andro
 As always, detailed changelogs can be found on our [changelogs page](https://blog.pixelos.net/changelogs).
 
 ## Changes
-- Added permissions for Google Dialer call recording support. If it was not working previously, it should now function properly.
-- Added a flashlight brightness slider, allowing users to control flashlight strength on supported devices. Hold the flashlight tile in Quick Settings to access it.
-- Fixed an issue on some under-display fingerprint sensor devices where the footer button would overlap with the fingerprint sensor area. The button has been removed in favor of a small text indicator on the left side.
-- Fixed an issue where the Wi-Fi tile in Quick Settings was incorrectly showing Mobile Data information.
-- Fixed miscellaneous crashes and included various other minor improvements.
+- Google Dialer call recording should now work properly for users who previously had issues with it.
+- Flashlight brightness slider has been brought back on supported devices, giving control over flashlight strength. You can access it from Quick Settings
+- We added an overlay to fix footer button overlap on devices with low-positioned under-display fingerprint sensor.
+- The Wi-Fi tile no longer incorrectly shows Mobile Data information.
+- We’ve also fixed a few miscellaneous crashes and included other minor improvements across the system.
 
 ## Support our work
 
