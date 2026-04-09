@@ -4,11 +4,30 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-08
+[07193d6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/07193d6619abe23f36dcbdbbd271714a5d9a4937) Merge https://github.com/LineageOS/android_vendor_lineage into sixtee… _(by hridaya)_  
+
 ## 2026-04-07
+[60ab37a](https://github.com/PixelOS-AOSP/android_build_soong/commit/60ab37a736d1df23417af2590a9f18b7ef7330a8) prebuilt_etc: Add prebuilt_addon_d module _(by Akash Suresh)_  
+[13bbe61](https://github.com/PixelOS-AOSP/android_packages_apps_DolbyAtmos/commit/13bbe61cf3e1046e3a1f0bda4719c321c953ce50) dolby: Exempt installing package in clone or private space _(by Pranav Vashi)_  
+[9d2bcd5](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9d2bcd55d2d4bae9a413ece0dd1157bd942ed93e) Add mimetype filter to LocalImageResolver _(by John Reck)_  
 [dedf340](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/dedf34041cda701cd1f3b20df077bb15917a3a94) Restore Meta+Backspace=Back keyboard shortcut _(by Sean McCreary)_  
+[1524562](https://github.com/PixelOS-AOSP/android_external_dng_sdk/commit/15245623c5aac20296c543373f061a1f2a0a52ac) Handle underflows in dng_opcode_MapTable _(by John Reck)_  
+
+## 2026-04-06
+[b475a1c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b475a1cad5f00eec9c44f164a9cb2f75e7055d03) release: Bump Security String to 2026-04-01 _(by Michael Bestas)_  
+
+## 2026-03-31
+[01e2117](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/01e2117b24aaeb524b65af96721413663bf31ddd) merge_dtbs: Widen techpack search path _(by Balázs Triszka)_  
 
 ## 2026-03-30
 [d9b2caf](https://github.com/PixelOS-AOSP/android_build_soong/commit/d9b2caf24366ff6b1e0f4e391cc7f4da9ec3be26) check_boot_jars: Generic-ify mediatek\..* regex _(by Giovanni Ricca)_  
+[3844766](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3844766a55a748fa6c183b16558e983143790459) overlay: move desktop mode config from tablet to common _(by CmdCtrlDevic3)_  
+
+## 2026-03-24
+[abd8219](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/abd82190c63099bb8e50a9325deeffea0fd2e716) gsi_car: Set PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS to strict _(by Akash Suresh)_  
+[b6caf25](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b6caf25b18af65312557e89a7d76153be4e3b916) sdk_car: Inherit from sdk_car_xxx _(by Akash Suresh)_  
+[8f9c00c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8f9c00c0c5c727bb2861880875d84e2ad13fee09) lineage_sdk_common: Allow-list dexpreopt output only when generated _(by Akash Suresh)_  
 
 ## 2026-03-20
 [cd4d5d3](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/cd4d5d3e7b54430eb6f169565506d7efeb1eb0b6) common: Add google dialer call recording feature _(by Karan Parashar)_  
@@ -38,6 +57,7 @@ pageClass: changelogSection
 [4323795](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/43237956d0b1ddebe6a148940ee5c9cf90ea70d6) config: Fix material expressive for permission manager _(by Pranav Vashi)_  
 
 ## 2026-03-15
+[150b6b6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/150b6b62d53ddd7ca17d816b32bed865bebebe87) common.mk: Use prebuilt_addon_d for installing 50-lineage.sh _(by Akash Suresh)_  
 [62e7a33](https://github.com/PixelOS-AOSP/android_build/commit/62e7a33757f6fa6d1e50949ba95c78170d4b08c3) releasetools: Only update dynamic partitions if unsparse_super_empty.… _(by Hridaya Prajapati)_  
 
 ## 2026-03-11
@@ -49,6 +69,9 @@ pageClass: changelogSection
 [ed14954](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ed14954e89267244068cbc29b0960a3ce5df2f0e) fixup! Prevent long press on profile notifs when locked _(by Julia Reynolds)_  
 
 ## 2026-03-10
+[aaec5a7](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/aaec5a7892869767a4bc4537956ffd498982c48d) config: Remove Rubik/Lato fonts for now _(by Michael Bestas)_  
+[1fe8d88](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1fe8d881afe00a4726b3f05b1c30d0325bcb09fa) vars: Add Pixel 10 series _(by Michael Bestas)_  
+[6ee8feb](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/6ee8feb491615b3031bc95c93f0abc39e7c909a7) release: Bump Security String to 2026-03-01 _(by Michael Bestas)_  
 [19c7908](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/19c79083bbdd513d486ba5203d6e56e4182c1fec) CameraProviderExtension: add enabled bool and always set torch _(by John Galt)_  
 [53744fd](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/53744fd509348f4e9448b31ff82ce655a97ce650) CameraProviderExtension: Reset strength level on torch off _(by bengris32)_  
 [e3b08f4](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/e3b08f4b6230f915e7a2860a89bb657f1d0ac73a) CameraProviderExtension: Update mTorchStrengthLevel with new level _(by bengris32)_  
@@ -103,11 +126,15 @@ pageClass: changelogSection
 [5f104ac](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5f104ac39035925c9f783176b4c712a28a6a09d3) Ensure sandboxed UIDs are treated as untrusted in Appops _(by Nate Myren)_  
 [70bd77b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/70bd77b1f5b1882510867320851006219bd0ea1f) [RESTRICT AUTOMERGE] Stay in app pinned mode upon SystemUI crash _(by Brad Hinegardner)_  
 
+## 2026-03-01
+[016aeda](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/016aeda2f20a1f2cfd9998b7fc80947cb0c4ccfd) config: CUSTOM_LOCALES: Add Nynorsk _(by Tim Schumacher)_  
+
 ## 2026-02-28
 [8538a4e](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/8538a4e9b04862bc14fede69b8d4955d1d119456) Revert "lineage: branded adb icon" _(by charcoal4494)_  
 
 ## 2026-02-27
 [50f4567](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/50f45673bdb5eb7b5a76612c2157cd17a5b1866b) base: Never show the pseudo locales _(by Ido Ben-Hur)_  
+[a4f610a](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a4f610a5c7e6324b8868cfd39871cb977b47991a) vars: Add waipio-6.6-vendor _(by LuK1337)_  
 
 ## 2026-02-25
 [daa6b3f](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/daa6b3fc80a994b8667253ccef24266815650881) config: Do not include Lineage-specific configuration _(by charcoal4494)_  
@@ -128,6 +155,7 @@ pageClass: changelogSection
 
 ## 2026-02-17
 [da4dcc6](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/da4dcc66b3acb712a77c655a8b7654daff0b62f2) Settings: BackgroundCheckSummary: use InstrumentedFragment to avoid NPE _(by inferno0230)_  
+[72b08bb](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/72b08bb7951292f47038605a50dca5b2e417f93d) aconfig: Enable enable_presentation_for_connected_displays _(by Aaron Kling)_  
 
 ## 2026-02-15
 [0132132](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/013213267b779b48b49837233d438b7588154b91) Updater: introduce stream OTA _(by Ashwin Devi Srinivasan)_  
