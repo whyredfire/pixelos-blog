@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-09
+[e011d0f](https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/e011d0f16700dfa2363e98a650ddbb0c50143db8) Rename libmegface to libmegface_sense _(by Henrique Silva)_  
+
 ## 2026-04-08
 [07193d6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/07193d6619abe23f36dcbdbbd271714a5d9a4937) Merge https://github.com/LineageOS/android_vendor_lineage into sixtee… _(by hridaya)_  
 
