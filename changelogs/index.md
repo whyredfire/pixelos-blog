@@ -4,6 +4,12 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-10
+[a8ee402](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a8ee402b1bf9ba00341dc97818afc1364cfb2b48) fixup! SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
+[b20a480](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b20a480dacb9dda30e6bf644641a286b9afef3cc) SystemUI: VolumeDialog: Remove toggle for left gravity _(by aswin7469)_  
+[c384e77](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c384e77ecc97c650a72445df56581d54f113be2d) SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
+[8ad215f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8ad215f92b3ec22c92bed0d4956196027893856a) SystemUI: VolumeDialog: Adapt support for left gravity to A16/QPR2 _(by Pranav Vashi)_  
+
 ## 2026-04-09
 [e011d0f](https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/e011d0f16700dfa2363e98a650ddbb0c50143db8) Rename libmegface to libmegface_sense _(by Henrique Silva)_  
 
