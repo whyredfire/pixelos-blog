@@ -14,6 +14,8 @@ pageClass: changelogSection
 [e011d0f](https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/e011d0f16700dfa2363e98a650ddbb0c50143db8) Rename libmegface to libmegface_sense _(by Henrique Silva)_  
 
 ## 2026-04-08
+[8b665b2](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/8b665b2948c4b69d5c6180224e15cc48c3008e06) Updater: Resolve deprecated API warnings _(by Angaddeep)_  
+[00c048d](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/00c048d1cd33f12b81b696b8f7ab996e05323f27) Updater: Refresh UI after importing a local update _(by Angaddeep)_  
 [07193d6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/07193d6619abe23f36dcbdbbd271714a5d9a4937) Merge https://github.com/LineageOS/android_vendor_lineage into sixtee… _(by hridaya)_  
 
 ## 2026-04-07
