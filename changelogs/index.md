@@ -4,6 +4,26 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-05-05
+[833a54a](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/833a54a26b6300ee5b122d5210b5fa81e3d80cbf) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
+
+## 2026-05-04
+[d91106a](https://github.com/PixelOS-AOSP/android_packages_modules_adb/commit/d91106a7fe69eb903f12444068f7bb70c1876031) Fix EVP_PKEY_cmp usage. _(by Joshua Duong)_  
+
+## 2026-05-01
+[67679fd](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/67679fd914e294d919645c90e77495aef7352584) health: Allow PendingIntents to start in the background _(by Nick Reuter)_  
+[6a0b46c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/6a0b46c9b6fcee2e6f72e81284cbb370bd02dee9) overlay: Enable glanceable hub toggle _(by AdarshGrewal)_  
+[ecf8458](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ecf8458520dc6b29af16371845c4540bd24baea7) overlay: Enable glance hub on mobiles too _(by AdarshGrewal)_  
+
+## 2026-04-30
+[c2f967c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c2f967cc10ef85491d0d6b3acd742ab27555035e) release: Disable navbar_flip_order_option aconfig _(by Joey)_  
+
+## 2026-04-20
+[c8131ec](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/c8131ecf5c1d15c10473611142906ca3f567e975) Settings: Expose glanceble hub activity _(by AdarshGrewal)_  
+
+## 2026-04-14
+[0a6189c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0a6189ca2c5f0c9b36fe8c70eb1d1c29668d3297) SystemUI: Update smartspace to CP1A.260305.018 _(by ralph950412)_  
+
 ## 2026-04-10
 [a8ee402](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a8ee402b1bf9ba00341dc97818afc1364cfb2b48) fixup! SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
 [b20a480](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b20a480dacb9dda30e6bf644641a286b9afef3cc) SystemUI: VolumeDialog: Remove toggle for left gravity _(by aswin7469)_  
