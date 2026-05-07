@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-05-06
+[6359806](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/635980639b99dd27674ef4324ac5081330786db2) roomservice: Use authenticated github API if token exists _(by inferno0230)_  
+
 ## 2026-05-05
 [833a54a](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/833a54a26b6300ee5b122d5210b5fa81e3d80cbf) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
 
