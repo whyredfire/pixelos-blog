@@ -5,6 +5,8 @@ pageClass: changelogSection
 # Changelogs
 
 ## 2026-05-06
+[ab4cc75](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/ab4cc754d51717a0aa3f3a59c099e0ea14247df8) bootanimation: Update from Pixel 10 series _(by charcoalpt)_  
+[97e63e2](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/97e63e2580fa910116dea28059a360050121b862) overlay: tablet: Enable config_canInternalDisplayHostDesktops _(by Yumi Yukimura)_  
 [6359806](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/635980639b99dd27674ef4324ac5081330786db2) roomservice: Use authenticated github API if token exists _(by inferno0230)_  
 
 ## 2026-05-05
