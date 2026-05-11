@@ -4,8 +4,19 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-05-09
+[8fd8a36](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8fd8a36fae7f3e14138c1299c4e70d2d29fcb34c) Settings: Convert charging limit preference to M3E _(by Bruno Martins)_  
+
 ## 2026-05-08
+[feeb860](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/feeb8600bfaf290bd0fc2fb9ce7f00ee6bf803c8) Settings: Decrease minimum pin length for auto confirm _(by Vishalcj17)_  
 [76a40db](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/76a40db5a5a4fa8ff8fab031cc872df3e20f21b2) Settings: Migrate Swipe to screenshot toggle to M3E _(by Angaddeep Singh)_  
+[b157243](https://github.com/PixelOS-AOSP/android_hardware_interfaces/commit/b157243ea4a1c7cdb3308b760d23449983de8b8d) compatibility_matrices: Add kernel_config_t_4.19 _(by Thomas Turner)_  
+[caeebe5](https://github.com/PixelOS-AOSP/android_kernel_configs/commit/caeebe587767c35f4e1a9bbbcdd54560ac68ef9d) t/android-5.4: Bump min LTS version _(by Michael Bestas)_  
+[7561397](https://github.com/PixelOS-AOSP/android_kernel_configs/commit/756139751a1ebc750931b10cc0121160f3bb7678) Align t/android-5.4 with t/android-5.10 _(by Michael Bestas)_  
+[6c0aaaa](https://github.com/PixelOS-AOSP/android_kernel_configs/commit/6c0aaaafb3f62f57927ffff3e4f7e6adfd37c465) Copy s/android-5.4 to t/android-5.4 _(by Michael Bestas)_  
+[db8fe55](https://github.com/PixelOS-AOSP/android_kernel_configs/commit/db8fe555b63627c5c6006fd5505f48dd9dd8a64b) Align t/android-4.19 with t/android-5.10 _(by Thomas Turner)_  
+[aa1de65](https://github.com/PixelOS-AOSP/android_kernel_configs/commit/aa1de65300b5937309f77606aacdf94e85fe9d9f) Copy s/android-4.19 to t/android-4.19 _(by Thomas Turner)_  
+[62c6957](https://github.com/PixelOS-AOSP/android_kernel_configs/commit/62c69573b50091c3218912d3e877b059828af8ff) s/android-4.19: Enforce UFFD dependencies _(by Michael Bestas)_  
 
 ## 2026-05-06
 [ab4cc75](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/ab4cc754d51717a0aa3f3a59c099e0ea14247df8) bootanimation: Update from Pixel 10 series _(by charcoalpt)_  
