@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-05-23
+[1e0f3ae](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/1e0f3ae679d78c6af3fe41d0c157fde834d0cddf) overlay: Provide overlay to blank out call recording voice strings _(by AdarshGrewal)_  
+
 ## 2026-05-09
 [8fd8a36](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8fd8a36fae7f3e14138c1299c4e70d2d29fcb34c) Settings: Convert charging limit preference to M3E _(by Bruno Martins)_  
 
