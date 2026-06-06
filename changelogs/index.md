@@ -4,8 +4,97 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-06-02
+[4e8c6a6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/4e8c6a64844458beb7539318e110aff3d63073d3) Merge https://github.com/LineageOS/android_vendor_lineage into sixtee… _(by Ashwin Devi Srinivasan)_  
+[7293a87](https://github.com/PixelOS-AOSP/android_build_release/commit/7293a876c494d62be56964a080d3a4c3086d7ba0) Select 25Q4 sqlite as 3.50.6 _(by Lee Shombert)_  
+[09ca273](https://github.com/PixelOS-AOSP/android_external_sqlite/commit/09ca273fe9ab251b57e127dbc6e518843ca5486e) Install 25Q4 sqlite 3.50.6 _(by Lee Shombert)_  
+[a3be9ab](https://github.com/PixelOS-AOSP/android_packages_apps_CertInstaller/commit/a3be9abc49ca7aed759f99ff285dc0243743a223) Use loadSafeLabel to prevent UI spoofing in CertInstaller _(by Radu Macovei)_  
+[91a5765](https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/91a5765762467ad0aaae48e8db5bc28053978c9d) Avoid buffer overflow _(by Bhakthavatsala Raghavendra)_  
+[de704a0](https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/de704a012708657a9e6e7ed97cfac05ca20dc443) Handle LE Secure Connections Passkey Display/Notification _(by Brian Delwiche)_  
+[2db86aa](https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/2db86aa977731a912f5bd40979fd453263615b64) sdp: Validate buffer length in sdpu_build_attrib_seq _(by Archie Pusaka)_  
+[3c473f0](https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/3c473f06453c9c6b673671c0be66343a85206ee7) Remove flag reboke_permission_on_unbond _(by Kyunglyul Hyun)_  
+[8879d54](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8879d54025db0492b418a5da72754fefd9fef63c) Catch uncaught IllegalStateException _(by Aaron Okano)_  
+[2990eb8](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2990eb832197dc6dc13ae28ad86e4db301bc701c) Fix Tapjacking caused by touch slipping out of letterbox _(by Nan Wu)_  
+[65a8141](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/65a81415d514672eca57be1084f3bc23c280c013) DO NOT MERGE: Enforce suspend restrictions in startOp and noteOp paths _(by Evan Severson)_  
+[53053f4](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/53053f4d63b55d61b98dcc7f404c06b1152ca0f9) Enforce package name length limits in PackagePolicy setters. _(by Pavel Grafov)_  
+[e232af1](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/e232af19606511388ed6d90c9a723cfd7ed772e1) Skip serialization of huge vibration effects in NotificationChannel _(by Matías Hernández)_  
+[6c3d376](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/6c3d376aa8afb67bebda01cd9b97df48a863e6fe) Block adding toast windows to non-empty tokens. _(by Jeff DeCew)_  
+[9e5a7d5](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/9e5a7d5386eacc385c086526cf22011efeab6550) Validate package ID range in LoadedArsc _(by Yurii Zubrytskyi)_  
+[23438cb](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/23438cbf994d7975ba8eae81489d3152e279e35a) Check caller for clearDeveloperVerificationExperiment _(by Song Chun Fan)_  
+[a531ebc](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a531ebcf53748c3c5f4b1047c38a286b1208d567) Check caller for addDeveloperVerificationExperiment _(by Song Chun Fan)_  
+[3a00afe](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/3a00afea55a5426178d2e47ef51e895695845a19) Compare period character as well during wildcard matching _(by Sanjana Sunil)_  
+[7efcf00](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/7efcf00e28fe0bb9a4bfa4fd7c604be2734c3c19) Map animation delegate to the transition instead of plumbing it _(by Evan Rosky)_  
+[fb915ec](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/fb915ecce711fc12794849dd51bd30fdcb5b2ec0) Prevent configAtEnd dispatching to finishing AR _(by Hongwei Wang)_  
+[eda782f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/eda782f5bc0daf7110ca779dcacd74dd351c7109) Validate max proxy string length for proxySpec and exclusionList usin… _(by Gabriel-Radu Ilca)_  
+[4cb09d1](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/4cb09d1da1d95a3ae4f0192bba9c7c20c0e105a1) Make sure we properly validate the XML attr size _(by Yurii Zubrytskyi)_  
+[f50723e](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f50723e936b63ef18b123e8791fd7676cb825b6c) RESTRICT AUTOMERGE Require to be bound with non-pinned visible window _(by Achim Thesmann)_  
+[c33b2d5](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c33b2d5a432c12ae993507aa3619af4fe8af12c3) On face auth success, verify the face auth'd user is the current user _(by Beverly)_  
+[654aa8b](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/654aa8b7e6abd187235cb572f77207ac61290947) Add StorageManager.convert() check earlier in the stack so the comman… _(by Anagha Sasikumar)_  
+[29a604f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/29a604f6317dbb1542237b17d99ef81a9ab8db08) Quick fix for WCLS security vulnerability. _(by Yutong Zhang)_  
+[5f64f3d](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/5f64f3dbcebeda5a7f48d6d64df84e5046d8dcbf) Validate ResStringPool_header.styleCount _(by Mark Punzalan)_  
+[d024c5d](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d024c5d7eb57ecf4155ab6ffcb1de8c6dcf49f5b) Allow default per-thread and per-process OnHeaderDecodedListeners _(by Leah Rumancik)_  
+[923b1a6](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/923b1a6c995d9c41c800335cbfcc3b5fc20a356b) Don't allow hiding critical apps. _(by Pavel Grafov)_  
+[1ea268f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/1ea268fad105e8589d665bdc5ef5ab010daaf519) Remove multi user flag reference _(by Reema Bajwa)_  
+[a286696](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a2866969b4d2191c73471ab2b568af7e560d15fa) Checking userId in com.android.server.pm.ComputerEngine#resolveConten… _(by h00013079)_  
+[4f4fa3f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/4f4fa3fd2a3d16b468df633de82bda86a29cb934) Hide non system overlay window immediately if it is animating exit _(by Riddle Hsu)_  
+[ffefb98](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ffefb98d269956a13e7af4435c0f28ca5397dda6) Apply visibility policy to window state surface _(by Riddle Hsu)_  
+[ca72f40](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ca72f4037b922571decff072d2dfea093ad2539a) Start a new transition to ignore split-enter from a malformed transition _(by Winson Chung)_  
+[a7a203e](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a7a203e514876d884e12656a938c21c714c95830) Fix bugs caused on package update events _(by Reema Bajwa)_  
+[402e2c7](https://github.com/PixelOS-AOSP/android_packages_apps_KeyChain/commit/402e2c7c6c7c895f8cfd359b398506bd64ee9e7f) Sanitize app label in KeyChainActivity to prevent UI injection. _(by Radu Macovei)_  
+[70643ee](https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider/commit/70643eeda58765f9cf45a3ca0058918ebba802e0) Fix size check bypass for case-mismatched columns _(by Bhavuk Garg)_  
+[ecee88d](https://github.com/PixelOS-AOSP/android_packages_providers_ContactsProvider/commit/ecee88db02e15d921c3fedd135880983a7df9e3a) Fix side channel attacks in CP2 _(by Himanshu Gupta)_  
+[6ba8923](https://github.com/PixelOS-AOSP/android_external_libpng/commit/6ba892340321020f73ac570a6f192faf5328e45f) Rearchitect the fix to the buffer overflow in `png_image_finish_read` _(by Cosmin Truta)_  
+[abcd55c](https://github.com/PixelOS-AOSP/android_external_libpng/commit/abcd55c4a8d90131e109be0f7bd10a54bd8d260c) Fix a buffer overflow in `png_image_finish_read` _(by Cosmin Truta)_  
+[4d0e0d0](https://github.com/PixelOS-AOSP/android_external_libpng/commit/4d0e0d0a44eee542f327bff6b5889d2f630fb514) Fix a buffer overflow in `png_init_read_transformations` _(by Cosmin Truta)_  
+[89d48a0](https://github.com/PixelOS-AOSP/android_external_libpng/commit/89d48a0e5ede817c149a6e258779bb3ee14a3258) Fix a buffer overflow in `png_do_quantize` _(by Cosmin Truta)_  
+[ed19db0](https://github.com/PixelOS-AOSP/android_external_libpng/commit/ed19db008ae5872380d9fcb4e18de3e2b4d06658) Fix a memory leak in function `png_set_quantize`; refactor _(by Cosmin Truta)_  
+[3c907b3](https://github.com/PixelOS-AOSP/android_external_libpng/commit/3c907b3284307678c443e737460b27659ea97ed4) Fix a heap buffer overflow in `png_write_image_8bit` _(by Cosmin Truta)_  
+[80d5ad7](https://github.com/PixelOS-AOSP/android_packages_modules_Nfc/commit/80d5ad79344a4be9e852838b3005ff5bf7e16bcc) Fix permanent BAL grant via onServiceConnected race _(by Kyle Hsiao)_  
+[28d91d7](https://github.com/PixelOS-AOSP/android_packages_modules_Nfc/commit/28d91d7e08a2537461f03e34e9a04ebd8badbc0d) Add onNullBinding and onBindingDied implemention to HostApduService _(by Jack Yu)_  
+[fe5099f](https://github.com/PixelOS-AOSP/android_packages_modules_Nfc/commit/fe5099f442c74100dcfc43f8b8bee59a5e2dbc4c) Load the Secure NFC setting when the current user is changed upon query _(by Kyle Hsiao)_  
+[5a87027](https://github.com/PixelOS-AOSP/android_packages_modules_Nfc/commit/5a87027eefbab3848f65f4f8d89a37897cfd59b2) nfc: Unbind from previously set foreground pref service _(by Roshan Pius)_  
+[8604b08](https://github.com/PixelOS-AOSP/android_packages_modules_Nfc/commit/8604b0865fa4a1f7e5dbb5c99e51018dd619b816) NFC Security Vulnerability in Multi-User Mode _(by Kyle Hsiao)_  
+[8b15c43](https://github.com/PixelOS-AOSP/android_packages_modules_Nfc/commit/8b15c43b8464029b91411d17181e20c1ddfe61ef) nfc: Modify Secure NFC restoration to use the corresponding userId _(by Kyle Hsiao)_  
+[0f736ac](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/0f736ac7733b35cb57760ea5d988559df3967157) release: Bump Security String to 2026-06-01 _(by Nolen Johnson)_  
+[c87699f](https://github.com/PixelOS-AOSP/android_packages_providers_MediaProvider/commit/c87699fe612bce350bb52cf85a7e4028e929b226) Fix select button in preview for single-select _(by Aditya Singh)_  
+[65ee82b](https://github.com/PixelOS-AOSP/android_packages_providers_MediaProvider/commit/65ee82bbb204cfd2ae32f1599c24cb0e67b109b6) Revert^2 "Fix: add confirmation step in single select mode." _(by Aditya Singh)_  
+[edf9360](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/edf9360819bc958d3ef1b6de7f006034e35dbd7b) nfc: Do not let guest user disable secure nfc _(by George Chang)_  
+[4716ca4](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4716ca400783c717d463d5b40dc1db5cf3c13a56) Allow multi-user to control secure nfc _(by Kyle Hsiao)_  
+
+## 2026-06-01
+[3d8e1a4](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/3d8e1a4d3715f7878c049ad6ceae444898e29f21) Update enable ANGLE warning message _(by Yuxin Hu)_  
+[17549aa](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/17549aa92694be85bf975d7bb9122f00806d3a37) Fix app label injection in ForgetDeviceDialogFragment _(by Evan Chen)_  
+[09af04b](https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/09af04ba301c59daf1738db9a94e916afadcdeb1) Disallow shell to change CarrierRestrictionRules _(by Keith Mok)_  
+[ac22534](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/ac225341db00707c3ac0ee36dc7d1a958194c54f) Fix vulnerability in RequestManageCredentials _(by Iustin Ventaniuc)_  
+[fec0111](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/fec01117e147ac426923e1fab229eb0a2e0cefe1) Add null check to caller permission check in DisableSupervisionActivity. _(by Yvonne Jiang)_  
+[2ce3475](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/2ce3475a5f62effdb6824db9c397ca871c633ca5) Fix default payment app selection _(by James Eidson)_  
+[2b5b22f](https://github.com/PixelOS-AOSP/android_packages_services_Telecomm/commit/2b5b22f56ce0bc51f263a77239e048149efd1eda) Fix issue initiating calls from the work profile. _(by Tyler Gunn)_  
+[4e08bf2](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/4e08bf2dacfb1e928b2bf187939a0568a788f8e7) Add a warning asking user to backup device data _(by Yuxin Hu)_  
+[6ba546e](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/6ba546ee3c2d39b3212b026e0288932f6f617259) Import translations. DO NOT MERGE ANYWHERE _(by Bill Yi)_  
+[40082ff](https://github.com/PixelOS-AOSP/android_packages_apps_DocumentsUI/commit/40082ff9f3aea6e6036fc6f8863f4528fc1f3e1b) Use signature-based trust for package name overrides _(by Himanshu Arora)_  
+[64e723d](https://github.com/PixelOS-AOSP/android_external_dng_sdk/commit/64e723d40ae12780a530bd865a367aedb6daa0b5) Update dng_sdk to 1.7.1 2471 _(by John Reck)_  
+[2980561](https://github.com/PixelOS-AOSP/android_external_dng_sdk/commit/2980561dcc8c45f617a091e7bd8b49accca48c71) Replace ubsan-minimal with throw _(by John Reck)_  
+[b07f39b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/b07f39bbbbe17dc04850e2cc481edf76846650ef) config: CUSTOM_LOCALES: Add Central Kurdish _(by LuK1337)_  
+
 ## 2026-05-23
 [1e0f3ae](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/1e0f3ae679d78c6af3fe41d0c157fde834d0cddf) overlay: Provide overlay to blank out call recording voice strings _(by AdarshGrewal)_  
+
+## 2026-05-18
+[610a83b](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/610a83baadc0b6cac60ba3ca7fd91744f05ce31c) roomservice: Support including kernel snippets _(by LuK1337)_  
+
+## 2026-05-14
+[93002ff](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/93002ff9f94c95f6119a97a5ea8fead423c04c1f) roomservice: Simplify JSON file reading _(by LuK1337)_  
+[362a33d](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/362a33ddfbffd1dbfedf565f26b0c9e7fc6beef3) roomservice: Upgrade to f-strings _(by LuK1337)_  
+[3d0e844](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3d0e844e0f9efc037dd6815f85a1eb688e5ad583) roomservice: os.system -> subprocess.run _(by LuK1337)_  
+[fd81c5e](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/fd81c5e8f8a99c112531f4908f816d0f96f4b1a2) Run `pre-commit run --all` _(by LuK1337)_  
+[07b883e](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/07b883ef9702fb145753081bfb592617cf962d48) Setup pre-commit _(by LuK1337)_  
+[33fdf54](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/33fdf544ca66936b402868e93c67bff2d89f6ddb) roomservice: Address ruff's "E722 Do not use bare `except`" warnings _(by LuK1337)_  
+[11b051c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/11b051c30dcd1a5a954ee1f378fdf9c582f98e33) roomservice: ruff format _(by Michael Bestas)_  
+
+## 2026-05-12
+[ea57015](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/ea5701565ea394c9848953a16061fedcd15a9a5c) kernel: Support having kernel platform in the main repo manifest _(by Aaron Kling)_  
+[a558813](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a5588130cf89846e1a05684635608d28c9ee8300) generated_kernel_includes: Track kernel platform path change _(by Aaron Kling)_  
+[a67469a](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/a67469aad07838245b7d9e6e8def61bfb8d48966) generated_kernel_includes: Fail immediately on errors _(by Aaron Kling)_  
 
 ## 2026-05-09
 [8fd8a36](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/8fd8a36fae7f3e14138c1299c4e70d2d29fcb34c) Settings: Convert charging limit preference to M3E _(by Bruno Martins)_  
@@ -25,12 +114,16 @@ pageClass: changelogSection
 [ab4cc75](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/ab4cc754d51717a0aa3f3a59c099e0ea14247df8) bootanimation: Update from Pixel 10 series _(by charcoalpt)_  
 [97e63e2](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/97e63e2580fa910116dea28059a360050121b862) overlay: tablet: Enable config_canInternalDisplayHostDesktops _(by Yumi Yukimura)_  
 [6359806](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/635980639b99dd27674ef4324ac5081330786db2) roomservice: Use authenticated github API if token exists _(by inferno0230)_  
+[6d7745d](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/6d7745d9cde2600f363555f447eae80603e33477) overlay: Enable glanceable hub toggle _(by AdarshGrewal)_  
+[87c7a58](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/87c7a588214cd41dfb1e7a9e06cd93efcce56916) overlay: Enable glance hub on mobiles too _(by AdarshGrewal)_  
 
 ## 2026-05-05
 [833a54a](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/833a54a26b6300ee5b122d5210b5fa81e3d80cbf) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
 
 ## 2026-05-04
 [d91106a](https://github.com/PixelOS-AOSP/android_packages_modules_adb/commit/d91106a7fe69eb903f12444068f7bb70c1876031) Fix EVP_PKEY_cmp usage. _(by Joshua Duong)_  
+[6e2c476](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/6e2c476544f3ac3d75cd6ca802db2aeb48dcdfc5) Fix quoting in argument forward of `repopick` _(by Alexander Grund)_  
+[bf03deb](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/bf03deb1759d6395e2ecba337ffcbed8917de6f3) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
 
 ## 2026-05-01
 [67679fd](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/67679fd914e294d919645c90e77495aef7352584) health: Allow PendingIntents to start in the background _(by Nick Reuter)_  
@@ -40,17 +133,38 @@ pageClass: changelogSection
 ## 2026-04-30
 [c2f967c](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c2f967cc10ef85491d0d6b3acd742ab27555035e) release: Disable navbar_flip_order_option aconfig _(by Joey)_  
 
+## 2026-04-24
+[bdefab4](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/bdefab48c446eeb3754b406d1e289df13853e57c) kernel: Pass `$$kernel_modules_dir` to kernel modules finder instead _(by Yumi Yukimura)_  
+
 ## 2026-04-20
+[eadec45](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/eadec453a4934d467e83125c765982ec119cef8a) fixup! kernel: Move kernel platform to in-tree location _(by Aaron Kling)_  
 [c8131ec](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/c8131ecf5c1d15c10473611142906ca3f567e975) Settings: Expose glanceble hub activity _(by AdarshGrewal)_  
 
+## 2026-04-19
+[d3486c9](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d3486c90171fc1a5e09d6d88c9ccaecf7fc6bcb0) kernel: kernel-platform: Support dtimage and dtboimage _(by Aaron Kling)_  
+[3b27521](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/3b275219560da43026512434c1fa23b4dc671647) kernel: Move kernel platform to in-tree location _(by Aaron Kling)_  
+
+## 2026-04-18
+[06f54ca](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/06f54cafbb9cf452e4f4a77ac90dae591bbcbefe) aconfig: use soong_config to gate bootanimation flag values _(by Josip Kelecic)_  
+[071f191](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/071f191b00a5e412c2d185ce2b71fd783d3ac6ec) aconfig: Enable boot animation on multiple displays _(by Balázs Triszka)_  
+
+## 2026-04-17
+[e7fe367](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/e7fe3678811b8a8dbc2607d7765a9aa3676ec58c) lineage: Move repopick to lineage/scripts _(by Nolen Johnson)_  
+
 ## 2026-04-14
+[9849e3d](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/9849e3dd187f7b1cdb8013ab68bc99c162f84d60) overlay: Drop MicroG UnifiedNLP from config_locationProviderPackageNames _(by LuK1337)_  
 [0a6189c](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/0a6189ca2c5f0c9b36fe8c70eb1d1c29668d3297) SystemUI: Update smartspace to CP1A.260305.018 _(by ralph950412)_  
+[29ce2c7](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/29ce2c7e776216ad29450708f30c455e3c21b086) kernel: Optionally allow modules in modules load list to be missing _(by Yumi Yukimura)_  
+[fcd89eb](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/fcd89eb3024e12f53ed7add30999f3fd247a5c78) kernel: Allow targets to generate boot/recovery modules list on-the-fly _(by Yumi Yukimura)_  
+[1b62364](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/1b62364fd7c10de8c651ecb2afc30d426e5a2405) kernel: Add support for automatically collecting kernel module deps _(by Yumi Yukimura)_  
 
 ## 2026-04-10
 [a8ee402](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a8ee402b1bf9ba00341dc97818afc1364cfb2b48) fixup! SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
 [b20a480](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/b20a480dacb9dda30e6bf644641a286b9afef3cc) SystemUI: VolumeDialog: Remove toggle for left gravity _(by aswin7469)_  
 [c384e77](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/c384e77ecc97c650a72445df56581d54f113be2d) SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
 [8ad215f](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/8ad215f92b3ec22c92bed0d4956196027893856a) SystemUI: VolumeDialog: Adapt support for left gravity to A16/QPR2 _(by Pranav Vashi)_  
+[d8ed839](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/d8ed8399d4acdc268eedf8a94a50d9b6a0d6ffbc) merge_dtbs: Add moorechip,device-id to EXTRA_KEYS _(by Bal?zs Triszka)_  
+[29fcd5e](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/29fcd5ed5ffda5114befc9ee8b7ce26568c487d2) merge_dtbs: Add support for TARGET_MERGE_DTBOS_WILDCARD _(by Bal?zs Triszka)_  
 
 ## 2026-04-09
 [e011d0f](https://github.com/PixelOS-AOSP/android_packages_apps_ParanoidSense/commit/e011d0f16700dfa2363e98a650ddbb0c50143db8) Rename libmegface to libmegface_sense _(by Henrique Silva)_  
