@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-06-08
+[f7cec28](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f7cec281cb969ea0a8e615c42144820bbff871fd) Settings: Use dynamic colors for biometrics enroll style _(by charcoalpt)_  
+[a95f958](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/a95f958dedc0828039360ee253d0609952d7adbc) Settings: Hardcode Settings icon color in launcher _(by ralph950412)_  
+
 ## 2026-06-02
 [4e8c6a6](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/4e8c6a64844458beb7539318e110aff3d63073d3) Merge https://github.com/LineageOS/android_vendor_lineage into sixtee… _(by Ashwin Devi Srinivasan)_  
 [7293a87](https://github.com/PixelOS-AOSP/android_build_release/commit/7293a876c494d62be56964a080d3a4c3086d7ba0) Select 25Q4 sqlite as 3.50.6 _(by Lee Shombert)_  
