@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-06-12
+[026b812](https://github.com/PixelOS-AOSP/android_frameworks_av/commit/026b81291cd883612060a57803d49accf485f030) camera: bypass roundBufferDimensionNearest for Y16 _(by AdarshGrewal)_  
+
 ## 2026-06-08
 [f7cec28](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/f7cec281cb969ea0a8e615c42144820bbff871fd) Settings: Use dynamic colors for biometrics enroll style _(by charcoalpt)_  
 [a95f958](https://github.com/PixelOS-AOSP/android_packages_apps_Settings/commit/a95f958dedc0828039360ee253d0609952d7adbc) Settings: Hardcode Settings icon color in launcher _(by ralph950412)_  
